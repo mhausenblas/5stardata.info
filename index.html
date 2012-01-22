@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN" "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+  xmlns:xsd ="http://www.w3.org/2001/XMLSchema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+>
+<head>
+	<title>5 star Open Data</title>
+	<link type="text/css" href="style.css" rel="stylesheet" />
+</head>
+<body>
+	<div id="menu"><a href="#by-example">By Example</a> | <a href="#cost-benefits">Costs &amp; Benefits</a> | <a href="#see-also">See Also</a></div>
+	
+	<h1 property="dcterms:title">5 &#x2605; Open Data</h1>
+
+	<p id="about" class="narrow">
+		<a href="http://www.w3.org/People/Berners-Lee/card#i">Tim Berners-Lee</a>, the inventor of the Web and Linked Data initiator, suggested a <a href="http://www.w3.org/DesignIssues/LinkedData.html">5 star deployment scheme</a> for Open Data. Here, we give examples for each step of the stars and explain costs and benefits that come along with it.
+	</p>
+	<div class="img-container">
+		<img src="5star-steps.png" alt="5-star steps by example" />
+	</div>
+	
+	<div class="sep"></div>
+	
+	<h2 id="by-example">By Example ...</h2>
+	<p>
+		Below, we provide examples for each level of Tim's 5 star Open Data plan. The example data used throughout is '<em>the temperature forecast for Galway, Ireland for the next 3 days</em>':
+	</p>
+
+	<table>
+		<tr>
+			<td class="stars">&#x2605;</td>
+			<td>make your stuff available on the Web (whatever format) under an open license<a class="footnote" href="#addendum1" title="view costs and benefits of 1 star data">1</a></td>
+			<td><a href="gtd-1.pdf" title="1 star Galway temperature data">example ...</a></td>
+		</tr>
+		<tr>
+			<td class="stars">&#x2605;&#x2605;</td>
+			<td>make it available as structured data (e.g., Excel instead of image scan of a table)<a class="footnote" href="#addendum2" title="view costs and benefits of 2 star data">2</a></td>
+			<td><a href="gtd-2.xls" title="2 star Galway temperature data">example ...</a></td>
+		</tr>
+		<tr>
+			<td class="stars">&#x2605;&#x2605;&#x2605;</td>
+			<td>use non-proprietary formats (e.g., CSV instead of Excel)<a class="footnote" href="#addendum3" title="view costs and benefits of 3 star data">3</a></td>
+			<td><a href="gtd-3.csv" title="3 star Galway temperature data">example ...</a></td>
+		</tr>
+		<tr>
+			<td class="stars">&#x2605;&#x2605;&#x2605;&#x2605;</td>
+			<td>use URIs to identify things, so that people can point at your stuff<a class="footnote" href="#addendum4" title="view costs and benefits of 4 star data">4</a></td>
+			<td><a href="gtd-4.html" title="4 star Galway temperature data">example ...</a></td>
+		</tr>
+		<tr>
+			<td class="stars">&#x2605;&#x2605;&#x2605;&#x2605;&#x2605;</td>
+			<td>link your data to other data to provide context<a class="footnote" href="#addendum5" title="view costs and benefits of 5 star data">5</a></td>
+			<td><a href="gtd-5.html" title="5 star Galway temperature data">example ...</a></td>
+		</tr>
+	</table>
+	
+	<div class="sep"></div>
+
+	<h2 id="cost-benefits">Costs &amp; Benefits ...</h2>
+
+	<div class="addendum" id="addendum1">
+		<div class="leftcol">
+			<h2>What are the costs &amp; benefits of <span class="stars-inline">&#x2605;</span> Web data?</h2>
+			<p>As a consumer ...</p>
+			<ul class="check">
+				<li>&#10004; You can look at it.</li>
+				<li>&#10004; You can print it.</li>
+				<li>&#10004; You can store it locally (on your hard drive or on an USB stick).</li>
+				<li>&#10004; You can enter the data manually into another system.</li>
+			</ul>
+			<p>As a publisher ...</p>
+			<ul class="check">
+				<li>&#10004; It's simple to publish.</li>
+			</ul>
+		</div>
+		<div class="rightcol">
+			<div class="squo">&ldquo;</div>
+			<p>
+				It's great to have the data accessible on the Web under an open license (such as <a href="http://www.opendatacommons.org/licenses/pddl/" title="Open Data Commons   &raquo; Public Domain Dedication and License (PDDL)">PDDL</a>, <a href="http://www.opendatacommons.org/licenses/by/" title="Open Data Commons   &raquo; Open Data Commons Attribution License">ODC-by</a> or <a href="http://creativecommons.org/publicdomain/zero/1.0/" title="Creative Commons &mdash;CC0 1.0 Universal">CC0</a>), however, the data is locked-up in a document.
+				Other than writing a custom scraper, it's hard to get the data out of the document.
+			</p>
+			<div class="equo">&rdquo;</div>
+		</div>
+		<div class="sidecol"></div>
+	</div>
+	
+	<div class="addendum" id="addendum2">
+		<div class="leftcol">
+			<h2>What are the costs &amp; benefits of <span class="stars-inline">&#x2605;&#x2605;</span> Web data?</h2>
+			<p>As a consumer, you can do all what you can do with <span class="stars-inline">&#x2605;</span> Web data and additionally:</p>
+			<ul class="check">
+				<li>&#10004; You can directly process it with proprietary software to aggregate it, perform calculations, visualise it, etc.</li>
+				<li>&#10004; You can export it into another (structured) format.</li>
+			</ul>
+			<p>As a publisher ...</p>
+			<ul class="check">
+				<li>&#10004; It's still simple to publish.</li>
+			</ul>
+		</div>
+		<div class="rightcol">
+			<div class="squo">&ldquo;</div>
+			<p>
+				Splendid! The data is accessible on the Web in a structured way (that is, machine-readable), however, the data is still locked-up in a document.
+				To get the data out of the document you depend on proprietary software.
+			</p>
+			<div class="equo">&rdquo;</div>
+		</div>
+		<div class="sidecol"></div>
+	</div>
+	
+	<div class="addendum" id="addendum3">
+		<div class="leftcol">
+			<h2>What are the costs &amp; benefits of <span class="stars-inline">&#x2605;&#x2605;&#x2605;</span> Web data?</h2>
+			<p>As a consumer, you can do all what you can do with <span class="stars-inline">&#x2605;&#x2605;</span> Web data and additionally:</p>
+			<ul class="check">
+				<li>&#10004; You can manipulate the data in any way you like, without being confined by the capabilities of any particular software.</li>
+			</ul>
+			<p>As a publisher ...</p>
+			<ul class="check">
+				<li>&#10004; You might need converters or plug-ins to export the data from the proprietary format.</li>
+				<li>&#10004; It's still rather simple to publish.</li>
+			</ul>
+		</div>
+		<div class="rightcol">
+			<div class="squo">&ldquo;</div>
+			<p>
+				Excellent! The data is not only available via the Web but now everyone can use the data easily.
+				On the other hand, it's still data on the Web and not <a href="http://webofdata.wordpress.com/2010/03/01/data-and-the-web-choices/" title="Data and the Web &#8211; a great many of choices  &laquo;  Web of Data">data in the Web</a>.
+			</p>
+			<div class="equo">&rdquo;</div>
+		</div>
+		<div class="sidecol"></div>
+	</div>
+
+	<div class="addendum" id="addendum4">
+		<div class="leftcol">
+			<h2>What are the costs &amp; benefits of <span class="stars-inline">&#x2605;&#x2605;&#x2605;&#x2605;</span> Web data?</h2>
+			<p>As a consumer, you can do all what you can do with <span class="stars-inline">&#x2605;&#x2605;&#x2605;</span> Web data and additionally:</p>
+			<ul class="check">
+				<li>&#10004; You can link to it from any other place (on the Web or locally).</li>
+				<li>&#10004; You can bookmark it.</li>
+				<li>&#10004; You can reuse parts of the data.</li>
+			</ul>
+			<p>As a publisher ...</p>
+			<ul class="check">
+				<li>&#10004; You typically invest some time slicing and dicing your data.</li>
+				<li>&#10004; You'll need to assign URIs to data items and think about how to represent the data.</li>
+				<li>&#10004; You have fine-granular control over the data items and can optimise their access (load balancing, caching, etc.)</li>
+			</ul>
+		</div>
+		<div class="rightcol">
+			<div class="squo">&ldquo;</div>
+			<p>
+				Wonderful! Now it's data <strong>in</strong> the Web. The (most important) data items have a URI and can be shared on the Web.
+				A native way to represent the data is using RDF, however other formats such as Atom can be converted/mapped, if required.
+			</p>
+			<div class="equo">&rdquo;</div>
+		</div>
+		<div class="sidecol"></div>
+	</div>
+
+	<div class="addendum" id="addendum5">
+		<div class="leftcol">
+			<h2>What are the costs &amp; benefits of <span class="stars-inline">&#x2605;&#x2605;&#x2605;&#x2605;&#x2605;</span> Web data?</h2>
+			<p>As a consumer, you can do all what you can do with <span class="stars-inline">&#x2605;&#x2605;&#x2605;&#x2605;</span> Web data and additionally:</p>
+			<ul class="check">
+				<li>&#10004; You can discover more (related) data while consuming the data.</li>
+				<li>&#10004; You can directly learn about the data schema.</li>
+			</ul>
+			<p>As a publisher ...</p>
+			<ul class="check">
+				<li>&#10004; You'll need to invest resources to link your data to other data on the Web.</li>
+				<li>&#10004; You make your data discoverable.</li>
+				<li>&#10004; You increase the value of your data.</li>
+			</ul>
+		</div>
+		<div class="rightcol">
+			<div class="squo">&ldquo;</div>
+			<p>
+				Brilliant! Now it's data, <strong>in</strong> the Web <strong>linked to</strong> other data. Both the consumer and the publisher 
+				benefit from the <a href="http://en.wikipedia.org/wiki/Network_effect" title="Network effect - Wikipedia, the free encyclopedia">network effect</a>.
+			</p>
+			<div class="equo">&rdquo;</div>
+		</div>
+		<div class="sidecol"></div>
+	</div>
+	
+	<div class="sep"></div>
+	
+	<h2 id="see-also">See Also</h2>
+	<ul>
+		<li>
+			<a href="http://inkdroid.org/ehs">Ed Summers</a> has provided a <a href="http://inkdroid.org/journal/2010/06/04/the-5-stars-of-open-linked-data/" title="the 5 stars of open linked data">nice rendering</a> of the 5 star scheme that we're building upon here.
+		</li>
+		<li>If you have Open Data, you might want to use the <a href="http://lab.linkeddata.deri.ie/2010/lod-badges/">star badges</a> to flag your compliance level.</li>
+	</ul>
+	
+	<div id="ack">
+		<p>
+			Kudos to <a href="http://twitter.com/andyseaborne">Andy Seaborne</a> for pointing out the CSV bug, 
+		to <a href="http://twitter.com/kerfors">Kerstin Forsberg</a> for suggesting the 'data highlighting' in the 4/5 star examples, 
+		as well as to <a href="http://twitter.com/vassilios">Vassilios Peristeras</a> for proposing to explain not only
+		the 'what' but also the 'why'. This site is brought to you by the EC FP7 Support Action LOD-Around-The-Clock (<a href="http://latc-project.eu/">LATC</a>).
+		</p>
+	</div>
+	<div id="footer">
+		<span>
+			Last update: <span property="dcterms:date" datatype="xsd:date">2012-01-22</span> by <a rel="dcterms:creator" href="http://sw-app.org/mic.xhtml#i">Michael</a> |
+		</span>
+		<span>
+			Code available via <a href="https://github.com/mhausenblas/5stardata.info">GitHub</a>
+		</span>
+	</div>
+</body>
+</html>
+
+
+
