@@ -19,6 +19,7 @@ var SERVER_500 = "500";
 function serve(filename, mediatype, req, res) {
 	parseLocalFile(filename, function(data, status, msg){
 		if(status === SERVER_200){
+			sys.log('Serving ' + filename + ' as ' + mediatype);
 			writeData(res, data, mediatype);
 		}
 		if(status === SERVER_404) {
@@ -98,28 +99,28 @@ http.createServer(function (req, res) {
 		case "/":
 			serve("./index.html", "text/html", req, res);
 			break;
-		case "style.css":
+		case "/style.css":
 			serve("style.css", "text/css", req, res);
 			break;
-		case "jquery-1.4.2.min.js":
+		case "/jquery-1.4.2.min.js":
 			serve("jquery-1.4.2.min.js", "application/json", req, res);
 			break;
-		case "data-highlight.js":
+		case "/data-highlight.js":
 			serve("data-highlight.js", "application/json", req, res);
 			break;
-		case "5star-steps.png":
+		case "/5star-steps.png":
 			serve("5star-steps.png", "image/png", req, res);
 			break;
-		case "temperature-saturday.sparql":
+		case "/temperature-saturday.sparql":
 			serve("temperature-saturday.sparql", "text/plain", req, res);
 			break;
-		case "gtd-3.csv":
+		case "/gtd-3.csv":
 			serve("gtd-3.csv", "text/csv", req, res);
 			break;
-		case "gtd-2.xls":
+		case "/gtd-2.xls":
 			serve("gtd-2.xls", "application/vnd.ms-excel", req, res);
 			break;
-		case "gtd-1.pdf":
+		case "/gtd-1.pdf":
 			serve("gtd-1.pdf", "application/pdf ", req, res);
 			break;
 		default:
@@ -128,6 +129,6 @@ http.createServer(function (req, res) {
 }).listen(PORT);
 
 
-console.log('Serving 5stardata.info ...');
+sys.log('Serving 5stardata.info ...');
 
 
