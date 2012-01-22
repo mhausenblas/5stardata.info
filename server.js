@@ -94,7 +94,7 @@ http.createServer(function (req, res) {
 	
 	switch (req.url) {
 		case "/":
-			serve("index.html", "text/html", req, res);
+			serve("./index.html", "text/html", req, res);
 			break;
 		case "style.css":
 			serve("style.css", "text/css", req, res);
