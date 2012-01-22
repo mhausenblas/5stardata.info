@@ -39,7 +39,9 @@ function getFileNameFromURI(fileuri){
 function parseLocalFile(fileuri, datareadyproc) {
 	var filename = getFileNameFromURI(fileuri);
 	var start = 0, end = 0;
-		
+	
+	filename =  path.join(__dirname, filename);
+	
 	if(DEBUG) {
 		start = new Date().getTime();
 		sys.debug("Looking for " + filename);
