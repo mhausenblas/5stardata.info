@@ -1,0 +1,12 @@
+PREFIX xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt;
+PREFIX meteo: &lt;http://purl.org/ns/meteo#&gt;
+PREFIX : &lt;http://lab.linkeddata.deri.ie/2010/star-scheme-by-example/kr/std-5.html#&gt;
+
+SELECT ?tempC from &lt;http://any23.org/rdfxml/http://lab.linkeddata.deri.ie/2010/star-scheme-by-example/kr/std-5.html&gt;
+WHERE { 
+
+ :Seoul meteo:forecast ?forecast .
+ ?forecast meteo:predicted &quot;2012-02-05T00:00:00Z&quot;^^xsd:dateTime ;
+           meteo:temperature ?temp .
+ ?temp meteo:celsius ?tempC .
+}
