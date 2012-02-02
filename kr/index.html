@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN" "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+  xmlns:xsd ="http://www.w3.org/2001/XMLSchema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+>
+<head>
+	<title>별점 5 오픈 데이터</title>
+	<link type="text/css" href="../style.css" rel="stylesheet" />
+</head>
+<body>
+	<div id="menu"><a href="#by-example">예제로 보기</a> | <a href="#cost-benefits">비용과 효과</a> | <a href="#see-also">더 보기</a></div>
+	
+	<h1 property="dcterms:title">5 &#x2605; 오픈 데이터</h1>
+
+	<p id="about" class="narrow">
+		웹과 링크드 데이터를 만든 <a href="http://www.w3.org/People/Berners-Lee/card#i">팀 버너스-리</a>는 별점을 이용한 오픈 데이터의 <a href="http://www.w3.org/DesignIssues/LinkedData.html">다섯 단계 배포 계획</a>을 제안하였다. 이 사이트는 별점의 각 단계에 예제한 예제를 제공하고, 그 비용과 효과에 대해 설명한다.
+	</p>
+	<div class="img-container">
+		<img src="../5star-steps.png" alt="5-star steps by example" />
+	</div>
+	
+	<div class="sep"></div>
+	
+	<h2 id="by-example">예제로 보기 ...</h2>
+	<p>
+	  다음은 팀 버너스-리가 제안한 별점 5 오픈 데이터 계획의 각 단계에 대한 예제이다. 아래에서 사용되는 예제 데이터는 '<em>서울의 3일간 기온 예보</em>'이다.
+	</p>
+
+	<table>
+		<tr>
+			<td class="stars">&#x2605;</td>
+			<td>데이터를 웹 상에 오픈 라이센스로 (포맷에 상관없이) 공개<a class="footnote" href="#addendum1" title="별점 1 데이터의 비용과 효과 보기">1</a></td>
+			<td><a href="std-1.pdf" title="별점 1 서울 기온 데이터">예제 ...</a></td>
+		</tr>
+		<tr>
+			<td class="stars">&#x2605;&#x2605;</td>
+			<td>구조화된 데이터로 제공(예, 표를 스캔한 이미지 파일 대신 엑셀 파일)<a class="footnote" href="#addendum2" title="별점 2 데이터의 비용과 효과 보기">2</a></td>
+			<td><a href="std-2.xls" title="별점 2 서울 기온 데이터">예제 ...</a></td>
+		</tr>
+		<tr>
+			<td class="stars">&#x2605;&#x2605;&#x2605;</td>
+			<td>비독점 포맷을 사용(예, 엑셀 파일 대신 CSV 파일)<a class="footnote" href="#addendum3" title="별점 3 데이터의 비용과 효과 보기">3</a></td>
+			<td><a href="std-3.csv" title="별점 3 서울 기온 데이터">예제 ...</a></td>
+		</tr>
+		<tr>
+			<td class="stars">&#x2605;&#x2605;&#x2605;&#x2605;</td>
+			<td>사람들이 가리킬 수 있도록 개체의 식별을 위해 URI를 사용<a class="footnote" href="#addendum4" title="별점 4 데이터의 비용과 효과 보기">4</a></td>
+			<td><a href="std-4.html" title="별점 4 서울 기온 데이터">예제 ...</a></td>
+		</tr>
+		<tr>
+			<td class="stars">&#x2605;&#x2605;&#x2605;&#x2605;&#x2605;</td>
+			<td>데이터의 문맥과 배경을 제공하기 위해 다른 데이터와 링크<a class="footnote" href="#addendum5" title="별점 5 데이터의 비용과 효과 보기">5</a></td>
+			<td><a href="std-5.html" title="별점 5 서울 기온 데이터">예제 ...</a></td>
+		</tr>
+	</table>
+	
+	<div class="sep"></div>
+
+	<h2 id="cost-benefits">비용과 효과 ...</h2>
+
+	<div class="addendum" id="addendum1">
+		<div class="leftcol">
+			<h2><span class="stars-inline">&#x2605;</span> 웹 데이터의 비용과 효과는 무엇일까?</h2>
+			<p>소비자로서 ...</p>
+			<ul class="check">
+				<li>&#10004; 볼 수 있다.</li>
+				<li>&#10004; 인쇄할 수 있다.</li>
+				<li>&#10004; 로컬에(하드 드라이브나 USB 메모리 스틱에) 저장할 수 있다.</li>
+				<li>&#10004; 다른 시스템에 수작업으로 데이터를 입력할 수 있다.</li>
+			</ul>
+			<p>공급자로서 ...</p>
+			<ul class="check">
+				<li>&#10004; 제공하기 쉽다.</li>
+			</ul>
+		</div>
+		<div class="rightcol">
+			<div class="squo">&ldquo;</div>
+			<p>
+			  오픈 라이센스(<a href="http://www.opendatacommons.org/licenses/pddl/" title="Open Data Commons &raquo; Public Domain Dedication and License (PDDL)">PDDL</a>, <a href="http://www.opendatacommons.org/licenses/by/" title="Open Data Commons &raquo; Open Data Commons Attribution License">ODC-by</a>, <a href="http://creativecommons.org/publicdomain/zero/1.0/" title="Creative Commons &mdash; CC0 1.0 Universal">CC0</a> 등)로 공개된 데이터가 웹 상에 존재하는 것은 매우 멋진 일이다. 하지만, 데이터는 문서에 갇혀 있고, 맞춤형 스크레이퍼의 작성없이 문서에서 데이터를 얻기는 어렵다.
+			</p>
+			<div class="equo">&rdquo;</div>
+		</div>
+		<div class="sidecol"></div>
+	</div>
+	
+	<div class="addendum" id="addendum2">
+		<div class="leftcol">
+			<h2><span class="stars-inline">&#x2605;&#x2605;</span> 웹 데이터의 비용과 효과는 무엇일까?</h2>
+			<p>소비자로서 <span class="stars-inline">&#x2605;</span> 웹 데이터로 할 수 있는 모든 것과 함께 다음을 추가로 할 수 있다.</p>
+			<ul class="check">
+				<li>&#10004; 데이터 수집, 계산, 시각화 등 독점 소프트웨어를 사용해 데이터를 직접 처리할 수 있다.</li>
+				<li>&#10004; 다른 (구조화된) 포맷으로 데이터를 내보낼 수 있다.</li>
+			</ul>
+			<p>공급자로서 ...</p>
+			<ul class="check">
+				<li>&#10004; 여전히 제공하기 쉽다.</li>
+			</ul>
+		</div>
+		<div class="rightcol">
+			<div class="squo">&ldquo;</div>
+			<p>
+			  훌륭하다! 데이터를 웹 상에서 구조화된(즉, 기계가 읽을 수 있는) 방법으로 접근할 수 있다. 하지만, 데이터는 여전히 문서에 갇혀있다.
+			  문서에서 데이터를 얻기 위해서는 독점 소프트웨어에 의존해야 한다.
+			</p>
+			<div class="equo">&rdquo;</div>
+		</div>
+		<div class="sidecol"></div>
+	</div>
+	
+	<div class="addendum" id="addendum3">
+		<div class="leftcol">
+			<h2><span class="stars-inline">&#x2605;&#x2605;&#x2605;</span> 웹 데이터의 비용과 효과는 무엇일까?</h2>
+			<p>소비자로서 <span class="stars-inline">&#x2605;&#x2605;</span> 웹 데이터로 할 수 있는 모든 것과 함께 다음을 추가로 할 수 있다.</p>
+			<ul class="check">
+				<li>&#10004; 특정 소프트웨어의 기능에 한정되지 않고, 자신이 원하는 방법으로 데이터를 다룰 수 있다.</li>
+			</ul>
+			<p>공금자로서 ...</p>
+			<ul class="check">
+				<li>&#10004; 독점 포맷으로 데이터를 내보내기 위해서 변환기나 플러그인이 필요할지도 모른다.</li>
+				<li>&#10004; 여전히 비교적 제공하기 쉽다.</li>
+			</ul>
+		</div>
+		<div class="rightcol">
+			<div class="squo">&ldquo;</div>
+			<p>
+			  놀랍다! 웹을 통해 데이터에 접근할 수 있을 뿐만 아니라 누구나 쉽게 사용할 수 있다.
+			  그러나, 이는 여전히 웹 상의 데이터이지 <a href="http://webofdata.wordpress.com/2010/03/01/data-and-the-web-choices/" title="데이터와 웹 &#8211; 선택의 많은 부분 &laquo; 데이터 웹">웹 안의 데이터</a>가 아니다.
+			</p>
+			<div class="equo">&rdquo;</div>
+		</div>
+		<div class="sidecol"></div>
+	</div>
+
+	<div class="addendum" id="addendum4">
+		<div class="leftcol">
+			<h2><span class="stars-inline">&#x2605;&#x2605;&#x2605;&#x2605;</span> 웹 데이터의 비용과 효과는 무엇일까?</h2>
+			<p>소비자로서 <span class="stars-inline">&#x2605;&#x2605;&#x2605;</span> 웹 데이터로 할 수 있는 모든 것과 함께 다음을 추가로 할 수 있다.</p>
+			<ul class="check">
+				<li>&#10004; 어떤 곳(로컬이나 웹 상에)에서라도 링크할 수 있다.</li>
+				<li>&#10004; 북마크할 수 있다.</li>
+				<li>&#10004; 데이터의 일부를 재사용할 수 있다.</li>
+			</ul>
+			<p>공급자로서 ...</p>
+			<ul class="check">
+				<li>&#10004; 일반적으로 데이터 분석을 위해 어느 정도의 시간을 투자해게 된다.</li>
+				<li>&#10004; 데이터 항목에 URI를 부여해야 하고, 데이터를 표현하기 위한 방법도 생각해야 한다.</li>
+				<li>&#10004; 데이터 항목에 대한 정교한 제어가 가능하고, 접근에 대한 최적화(로드 발란싱, 캐싱 등)도 할 수 있다.</li>
+			</ul>
+		</div>
+		<div class="rightcol">
+			<div class="squo">&ldquo;</div>
+			<p>
+			  대단하다! 이제 웹 <strong>안</strong>의 데이터이다. (가장 중요한) 데이터 항목들이 URI를 가지며, 웹 상에서 공유될 수 있다.
+			  데이터를 표현하기 위한 가장 자연스러운 방법은 RDF를 사용하는 것이다. 하지만, 필요한 경우 Atom과 같은 다른 포맷도 변환 또는 매핑될 수 있다.
+			</p>
+			<div class="equo">&rdquo;</div>
+		</div>
+		<div class="sidecol"></div>
+	</div>
+
+	<div class="addendum" id="addendum5">
+		<div class="leftcol">
+			<h2><span class="stars-inline">&#x2605;&#x2605;&#x2605;&#x2605;&#x2605;</span> 웹 데이터의 비용과 효과는 무엇일까?</h2>
+			<p>소비자로서 <span class="stars-inline">&#x2605;&#x2605;&#x2605;&#x2605;</span> 웹 데이터로 할 수 있는 모든 것과 함께 다음을 추가로 할 수 있다.</p>
+			<ul class="check">
+				<li>&#10004; 데이터를 소비하며 더 많은 (관련) 데이터를 발견할 수 있다.</li>
+				<li>&#10004; 데이터 스키마에 대해 직접 배울 수 있다.</li>
+			</ul>
+			<p>공급자로서 ...</p>
+			<ul class="check">
+				<li>&#10004; 웹 상의 다른 데이터와 링크하기 위해서 자원의 투자가 필요해 진다.</li>
+				<li>&#10004; 데이터가 발견될 수 있도록 만든다.</li>
+				<li>&#10004; 데이터의 가치를 높인다.</li>
+			</ul>
+		</div>
+		<div class="rightcol">
+			<div class="squo">&ldquo;</div>
+			<p>
+			  환상적이다! 이제 다른 데이터에 <strong>연결된</strong> 웹 <strong>안</strong>의 데이터이다. 소비자와 공급자는 모두 <a href="http://ko.wikipedia.org/wiki/네트워크_효과" title="네트워크 효과 - 위키피디아, 우리 모두의 백과사전">네트워크 효과</a>를 통한 이익을 얻는다.
+			</p>
+			<div class="equo">&rdquo;</div>
+		</div>
+		<div class="sidecol"></div>
+	</div>
+	
+	<div class="sep"></div>
+	
+	<h2 id="see-also">더 보기</h2>
+	<ul>
+		<li>
+			<a href="http://inkdroid.org/ehs">에드 서머스</a>는 이 사이트의 바탕이 된 별점 5 계획의 <a href="http://inkdroid.org/journal/2010/06/04/the-5-stars-of-open-linked-data/" title="오픈 링크드 데이터의 다섯 가지 별점">멋진 표현</a>을 제공했다.
+		</li>
+		<li>오픈 데이터를 갖고 있다면, 준수 수준을 표시하기 위해 <a href="http://lab.linkeddata.deri.ie/2010/lod-badges/">별점 배지</a>를 사용할 수 있다.</li>
+	</ul>
+	
+	<div id="ack">
+		<p>
+		  CSV 버그를 알려준 <a href="http://twitter.com/andyseaborne">앤디 시본</a>, 별점 4/5 예제에 '데이터 하이라이팅'을 제안해 준 <a href="http://twitter.com/kerfors">커스틴 포스버그</a>, '무엇' 뿐 아니라 '왜'도 설명하라고 제의한 <a href="http://twitter.com/vassilios">바실리오스 페리스테라</a>에게 영광을 돌린다. 이 사이트는 EC FP7 지원 활동 LOD-Around-The-Clock (<a href="http://latc-project.eu/">LATC</a>)에 의해 제공된다.
+		</p>
+	</div>
+	<div id="footer">
+		<span>
+			최종 수정: <span property="dcterms:date" datatype="xsd:date">2012-01-22</span>, <a rel="dcterms:creator" href="http://sw-app.org/mic.xhtml#i">마이클</a> |
+		</span>
+		<span>
+			번역: <span property="dcterms:date" datatype="xsd:date">2012-02-03</span>, <a rel="dcterms:creator" href="http://jayg.me/">김보람</a> |
+		</span>
+		<span>
+			코드 공유: <a href="https://github.com/mhausenblas/5stardata.info">GitHub</a>
+		</span>
+	</div>
+</body>
+</html>
