@@ -19,12 +19,15 @@
 	<div id="hint">
 		<p>
 			To view the embedded data encoded in RDFa, hover over the red-dotted areas.
-			You can also <a href="http://inspector.sindice.com/inspect?url=http://5stardata.info/gtd-4.html">view the data externally</a> in the Web Data Inspector.
+			You can also <a href="http://inspector.sindice.com/inspect?url=http://5stardata.info/gtd-4.html">view the data externally</a> in the Web Data Inspector, or <a href="http://graphite.ecs.soton.ac.uk/browser/?uri=http%3A%2F%2F5stardata.info%2Fgtd-4.html">Graphite Browser</a> or other tools.
 		</p>
 		<p>
 			In this 4 star example, we used the <a href="http://purl.org/ns/meteo#">Meteo</a> vocabulary to represent the temperature forecasts.
 		Each forecast has a URI (for example, '<a href="#forecast20101115">forecast for Monday, 15 November 2010</a>'), which can be used in another context.
 		</p>
+
+		<p>If you view the source, the data looks like a hierarchical structure, but this is an illusion. Really it is just expressing a set of individual facts about things; "#Galway" is "a Place", "#Galway" has a forecast "#forecast20101113", "#forecast20101113" is a prediction for "2010-11-13T00:00:00Z" and so forth. You can change the order of these facts without altering their meaning.</p>
+
 	</div>
 </div>
 <h1 property="dcterms:title">Temperature forecast for Galway, Ireland</h1>
