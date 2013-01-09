@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN" "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+  xmlns:xsd ="http://www.w3.org/2001/XMLSchema#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:meteo="http://purl.org/ns/meteo#">
+<head>
+	<title>東京 (日本) の気温予報</title>
+	<link type="text/css" href="../style.css" rel="stylesheet" />
+	<script type="text/javascript" src="../jquery-1.4.2.min.js"></script>
+	<script type="text/javascript" src="../data-highlight.js"></script>
+</head>
+<body>
+	
+<div>
+	<button id="show-data">埋め込まれたデータを見る</button>
+	<div id="hint">
+		<p>
+			RDFaで埋め込まれたデータを見るためには，赤いドット領域にマウスを移動してください．
+			<a href="http://inspector.sindice.com/inspect?url=http://5stardata.info/ja/gtd-4.html">Web data inspector</a>や<a href="http://graphite.ecs.soton.ac.uk/browser/?uri=http%3A%2F%2F5stardata.info%2Fja%2Fgtd-4.html">Graphite Browser</a>や他のツールによって，このWebサイト外でも見ることができます．
+		</p>
+		<p>
+			この4つ星の例では，気温予報を表現するために<a href="http://purl.org/ns/meteo#">Meteo</a> 語彙を使用しています．
+			各予報にはURIがあり (例 '<a href="#forcast20130110">2013年1月10日 (木) の予報</a>')</a>，それは他のコンテキストでも使うことができます．
+		</p>
+
+		<p>もしソースを見るとして，データが一見階層化構造のように見えますが，それは幻覚です．本当に，それは事物についての個々の事実の集合を表現しているだけです．"#Tokyo"が"場所"であり，"#Tokyo"は予報 "#forecast20130108"を持っており，"#forecast20130108"は"2013-01-08T00:00:00Z"の予測である等．あなたはこれらの，事実の意味を変えずに，事実の順番を変更することができます．</p>
+
+	</div>
+</div>
+<h1 property="dcterms:title">東京 (日本) の気温予報</h1>
+	
+<div id="data" about="#Tokyo" typeof="meteo:Place">
+<table border="1px">
+	<tr>
+		<th>日付</th>
+		<th>最低気温 (&deg;C)</th>
+	</tr>
+	<tr rel="meteo:forecast" resource="#forecast20130108">
+		<td>
+			<div about="#forecast20130108">
+				<span property="meteo:predicted" content="2013-01-08T00:00:00Z" datatype="xsd:dateTime">2013年1月8日 (火)</span>
+			</div>
+		</td>
+		<td rel="meteo:temperature">
+			<div about="#temp20130108">
+				<span property="meteo:celsius" datatype="xsd:decimal">3</span>
+			</div>
+		</td>
+	</tr>
+	<tr rel="meteo:forecast" resource="#forecast20130109">
+		<td>
+			<div about="#forecast20130109">
+				<span property="meteo:predicted" content="2013-01-09T00:00:00Z" datatype="xsd:dateTime">2013年1月9日 (水)</span>
+			</div>
+		</td>
+		<td rel="meteo:temperature">
+			<div about="#temp20130109">
+				<span property="meteo:celsius" datatype="xsd:decimal">2</span>
+			</div>
+		</td>
+	</tr>
+	<tr rel="meteo:forecast" resource="#forecast20130110">
+		<td>
+			<div about="#forecast20130110">
+				<span property="meteo:predicted" content="2013-01-10T00:00:00Z" datatype="xsd:dateTime">2013年1月10日 (木)</span>
+			</div>
+		</td>
+		<td rel="meteo:temperature">
+			<div about="#temp20130110">
+				<span property="meteo:celsius" datatype="xsd:decimal">1</span>
+			</div>
+		</td>
+	</tr>
+</table>
+</div>
+	
+<pre id="data-out"></pre>
+
+<div id="footer">
+	<span>
+		最終更新日: <span property="dcterms:date" datatype="xsd:date">2013-01-08</span> by <a rel="dcterms:creator" href="http://fumi.me/foaf#me">Fumi</a> |
+	</span>
+	<span>
+		コードは <a href="https://github.com/mhausenblas/5stardata.info">GitHub</a> で公開されています．
+	</span>
+</div>
+</body>
+</html>
+
+
+

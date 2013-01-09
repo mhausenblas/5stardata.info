@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN" "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+  xmlns:xsd ="http://www.w3.org/2001/XMLSchema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+>
+<head>
+	<title>5つ星オープンデータ</title>
+	<link type="text/css" href="../style.css" rel="stylesheet" />
+</head>
+<body>
+	<div id="menu"><a href="#by-example">例示</a> | <a href="#cost-benefits">コストと利益</a> | <a href="#see-also">参照</a></div>
+	
+	<h1 property="dcterms:title">5 &#x2605; オープンデータ</h1>
+
+	<p id="about" class="narrow">
+		Webの発明者でありLinked Dataの創始者でもある<a href="http://www.w3.org/People/Berners-Lee/card#i">ティム・バーナーズ＝リー</a>は，オープンデータのための<a href="http://www.w3.org/DesignIssues/LinkedData.html">5つ星スキーム</a>を提案しています．ここでは，各段階の星の例と，それに伴うコストや利益について説明します．
+	</p>
+	<div class="img-container">
+		<img src="../5star-steps.png" alt="5-star steps by example" />
+	</div>
+	
+	<div class="sep"></div>
+	
+	<h2 id="by-example">例示</h2>
+	<p>
+		以下に，ティムの5つ星オープンデータ計画における各レベルの例を示します．この文章を通して使われるデータ例は'<em>今後3日間における東京 (日本) の気温予報</em>'です．:
+	</p>
+
+	<table>
+		<tr>
+			<td class="stars">&#x2605;</td>
+			<td>(どんな形式でも良いので) あなたのデータをオープンライセンスでWeb上に公開しましょう<a class="footnote" href="#addendum1" title="1つ星データのコストと利益を見ましょう">1</a></td>
+			<td><a href="gtd-1.pdf" title="1 star Galway temperature data">例 ...</a></td>
+		</tr>
+		<tr>
+			<td class="stars">&#x2605;&#x2605;</td>
+			<td>データを構造化データとして公開しましょう (例: 表のスキャン画像よりもExcel)<a class="footnote" href="#addendum2" title="2つ星データのコストと利益を見ましょう">2</a></td>
+			<td><a href="gtd-2.xls" title="2 star Galway temperature data">例 ...</a></td>
+		</tr>
+		<tr>
+			<td class="stars">&#x2605;&#x2605;&#x2605;</td>
+			<td>非独占の形式を使いましょう (例: ExcelよりもCSV)<a class="footnote" href="#addendum3" title="3つ星データのコストと利益を見ましょう">3</a></td>
+			<td><a href="gtd-3.csv" title="3 star Galway temperature data">例 ...</a></td>
+		</tr>
+		<tr>
+			<td class="stars">&#x2605;&#x2605;&#x2605;&#x2605;</td>
+			<td>物事を示すのにURIを使いましょう，そうすることで他の人々があなたのデータにリンクすることができます<a class="footnote" href="#addendum4" title="4つ星データのコストと利益を見ましょう">4</a></td>
+			<td><a href="gtd-4.html" title="4 star Galway temperature data">例 ...</a></td>
+		</tr>
+		<tr>
+			<td class="stars">&#x2605;&#x2605;&#x2605;&#x2605;&#x2605;</td>
+			<td>あなたのデータのコンテキストを提供するために他のデータへリンクしましょう<a class="footnote" href="#addendum5" title="5つ星データのコストと利益を見ましょう">5</a></td>
+			<td><a href="gtd-5.html" title="5 star Galway temperature data">例 ...</a></td>
+		</tr>
+	</table>
+	
+	<div class="sep"></div>
+
+	<h2 id="cost-benefits">コストと利益 ...</h2>
+
+	<div class="addendum" id="addendum1">
+		<div class="leftcol">
+			<h2><span class="stars-inline">&#x2605;</span> Webデータのコストと利益は何でしょうか？</h2>
+			<p>消費者として ...</p>
+			<ul class="check">
+				<li>&#10004; 見ることができます．</li>
+				<li>&#10004; 印刷することができます．</li>
+				<li>&#10004; ローカル (ハードディスクやUSBメモリ上) に保存できます．</li>
+				<li>&#10004; データを他のシステムに入力できます．</li>
+				<li>&#10004; 望むようにデータを変更できます．</li>
+				<li>&#10004; 好きなように他人とデータを共有できます．</li>
+			</ul>
+			<p>公開者として ...</p>
+			<ul class="check">
+				<li>&#10004; 簡単に公開できます．</li>
+				<li>&#10004; あなたのデータが使用可能であるということを消費者に繰り返し説明する必要がありません．</li>
+			</ul>
+		</div>
+		<div class="rightcol">
+			<div class="squo">&ldquo;</div>
+			<p>
+				(<a href="http://www.opendatacommons.org/licenses/pddl/" title="Open Data Commons   &raquo; Public Domain Dedication and License (PDDL)">PDDL</a>，<a href="http://www.opendatacommons.org/licenses/by/" title="Open Data Commons   &raquo; Open Data Commons Attribution License">ODC-by</a> ，<a href="http://creativecommons.org/publicdomain/zero/1.0/" title="Creative Commons &mdash;CC0 1.0 Universal">CC0</a> のような)オープンライセンスのもとでWeb上にデータを公開するのは素晴らしいことです．しかしながら，そのデータは文書内に閉じ込められています．
+				お手製のスクレイパーを書かないと，文書からデータを取り出すのは難しいです．
+			</p>
+			<div class="equo">&rdquo;</div>
+		</div>
+		<div class="sidecol"></div>
+	</div>
+	
+	<div class="addendum" id="addendum2">
+		<div class="leftcol">
+			<h2><span class="stars-inline">&#x2605;&#x2605;</span>  Webデータのコストと利益は何でしょうか？</h2>
+			<p>消費者として，<span class="stars-inline">&#x2605;</span> Webデータでできることは全て可能です．それに加えて，</p>
+			<ul class="check">
+				<li>&#10004; 独占的なソフトウェアを使うことで，データの集約，計算，可視化等を直接処理できます．</li>
+				<li>&#10004; 他の(構造化)形式として書き出せます．</li>
+			</ul>
+			<p>公開者として ...</p>
+			<ul class="check">
+				<li>&#10004; まだ簡単に公開できます．</li>
+			</ul>
+		</div>
+		<div class="rightcol">
+			<div class="squo">&ldquo;</div>
+			<p>
+				素晴らしい！ そのデータは構造化された方法 (すなわち，機械可読可能な形式)で Web上でアクセス可能となっています．しかしながら，データは依然として文書内に閉じ込められています．
+				データを文書から取り出すには独占的なソフトウェアが必要です．
+			</p>
+			<div class="equo">&rdquo;</div>
+		</div>
+		<div class="sidecol"></div>
+	</div>
+	
+	<div class="addendum" id="addendum3">
+		<div class="leftcol">
+			<h2><span class="stars-inline">&#x2605;&#x2605;&#x2605;</span> Webデータのコストと利益は何でしょうか？</h2>
+			<p>消費者として，<span class="stars-inline">&#x2605;&#x2605;</span> Webデータでできることは全て可能です．それに加えて:</p>
+			<ul class="check">
+				<li>&#10004; 特定のソフトウェアの機能に限定されることなく，あなたの好きな方法でデータを操作できます．</li>
+			</ul>
+			<p>公開者として ...</p>
+			<ul class="check">
+				<li>&#9888; 独占的な形式からデータを書き出すためには，コンバーターやプラグインが必要になるかもしれません．</li>
+				<li>&#10004; まだまだ公開するのは簡単です．</li>
+			</ul>
+		</div>
+		<div class="rightcol">
+			<div class="squo">&ldquo;</div>
+			<p>
+				完璧です！ そのデータはWebを通して公開されているだけではなく，誰もが簡単にデータを使うことができます．
+				一方で，データはまだWeb上に置いてある (data on the Web) だけであり，<a href="http://webofdata.wordpress.com/2010/03/01/data-and-the-web-choices/" title="Data and the Web &#8211; a great many of choices  &laquo;  Web of Data">Webの中にあるデータ (data in the Web)</a>ではありません．
+			</p>
+			<div class="equo">&rdquo;</div>
+		</div>
+		<div class="sidecol"></div>
+	</div>
+
+	<div class="addendum" id="addendum4">
+		<div class="leftcol">
+			<h2><span class="stars-inline">&#x2605;&#x2605;&#x2605;&#x2605;</span> Webデータのコストと利益は何でしょうか？</h2>
+			<p>消費者として<span class="stars-inline">&#x2605;&#x2605;&#x2605;</span> Webデータでできることは全て可能です．それに加えて，</p>
+			<ul class="check">
+				<li>&#10004; (Web上やローカルの) 他の場所からデータにリンクすることができます．</li>
+				<li>&#10004; ブックマークできます．</li>
+				<li>&#10004; データの一部を再利用できます．</li>
+				<li>&#10004; 公開者が使用しているパターンの一部を理解するだけで，既存のツールやライブラリを再利用できるかもしれません．</li>
+				<li>&#9888; データのRDF "グラフ" 構造を理解するのは，表データ (Excel/CSV) や木構造データ (XML/JSON) よりも多くの努力が必要でしょう．</li>
+				<li>&#10004; 他のデータと安全に組み合わせることができます．URIはグローバルなスキームなので，もし2つの事物に同じURIが存在する場合は，それは故意です．もしそうなっているのであれば，それは適切な5つ星データへの道です！</li>
+			</ul>
+			<p>公開者として ...</p>
+			<ul class="check">
+				<li>&#10004; データ項目へのきめ細かい制御で消費者のアクセスを最適化できます (ロード・バランシング，キャッシング等)．</li>
+				<li>&#10004; 他のデータ公開者があなたのデータにリンクすることができます．それを5つ星に昇格してください！</li>
+				<li>&#9888; 通常は，データを細切れにして分析するために時間を費やします．</li>
+				<li>&#9888; データ項目にURIを割り当てたり，データの表現方法について考える必要があるでしょう．</li>
+				<li>&#9888; 再利用するための既存パターンを見つけるか，あるいは自分なりの方法を作る必要があります．</li>
+			</ul>
+		</div>
+		<div class="rightcol">
+			<div class="squo">&ldquo;</div>
+			<p>
+				凄い！ 今，データはWebの<strong>中</strong>にあります．(最も大切な)データ項目にはURIがあり，Web上で共有することができます．
+				データを表現するための自然な方法は，RDFを使うことです．しかしながら，Atomのような他の形式は必要であれば変換することができます． 
+			</p>
+			<div class="equo">&rdquo;</div>
+		</div>
+		<div class="sidecol"></div>
+	</div>
+
+	<div class="addendum" id="addendum5">
+		<div class="leftcol">
+			<h2><span class="stars-inline">&#x2605;&#x2605;&#x2605;&#x2605;&#x2605;</span> Webデータのコストと利益は何でしょうか？</h2>
+			<p>消費者として，<span class="stars-inline">&#x2605;&#x2605;&#x2605;&#x2605;</span> Webデータでできることは全部できます．それに加えて，</p>
+			<ul class="check">
+				<li>&#10004; データを消費する時により多くの(関係ある)データを発見できます．</li>
+				<li>&#10004; データスキーマについて直接学べます．</li>
+				<li>&#9888; Webページでの404エラーのように，これからは壊れたデータリンクを取り扱わなければなりません．</li>
+				<li>&#9888; 実際，任意のリンクからのデータを表示するのは，あなたのページでいかなるウェブサイトからのコンテンツを含ませるのと同様に危険です．注意，信頼，常識が依然として必要とされます．</li>
+			</ul>
+			<p>公開者は ...</p>
+			<ul class="check">
+				<li>&#10004; あなたのデータを発見可能にできます．</li>
+				<li>&#10004; あなたのデータの価値が増大します．</li>
+				<li>&#10004; あなたの組織は消費者と同様にリンクから利益を得ます．</li>
+				<li>&#9888; あなたのデータをWeb上の他のデータにリンクするためにリソースを投資する必要があるでしょう．</li>
+				<li>&#9888; 壊れた，あるいは正しくないリンクを修正する必要があるかもしれません．</li>
+			</ul>
+		</div>
+		<div class="rightcol">
+			<div class="squo">&ldquo;</div>
+			<p>
+				見事です！ これでWebの<strong>中</strong>にあり，他のデータ<strong>へリンクする</strong>データとなりました．消費者と公開者共に，
+				<a href="http://ja.wikipedia.org/wiki/%E3%83%8D%E3%83%83%E3%83%88%E3%83%AF%E3%83%BC%E3%82%AF%E5%A4%96%E9%83%A8%E6%80%A7" title="ネットワーク外部性 - Wikipedia, フリー百科事典">ネットワーク外部性</a>の利益を得ます．
+			</p>
+			<div class="equo">&rdquo;</div>
+		</div>
+		<div class="sidecol"></div>
+	</div>
+	
+	<div class="sep"></div>
+	
+	<h2 id="see-also">参照</h2>
+	<ul>
+		<li><a href="http://inkdroid.org/ehs">Ed Summers</a> は我々がここで構築している5つ星スキームの <a href="http://inkdroid.org/journal/2010/06/04/the-5-stars-of-open-linked-data/" title="the 5 stars of open linked data">格好いい演出</a>を提供しています．</li>
+		<li>もしあなたがオープンデータを持っているならば，適合レベルを示すのに <a href="http://lab.linkeddata.deri.ie/2010/lod-badges/">星バッジ</a>を使いたいかもしれません．</li>
+		<li>James G. Kim がこのサイトの<a href="http://5stardata.info/kr/" title="별점 5 오픈 데이터">韓国語版</a>を提供しています．</li>
+                <li>Christopher Gutteridgeによる <a href='http://openorg.ecs.soton.ac.uk/wiki/Linked_Data_Basics_for_Techies'>プログラマのためのLinked Data短期集中コース</a>があります．</li>
+	</ul>
+	
+	<div id="ack">
+		<p>
+			賛辞: <a href="http://twitter.com/andyseaborne">Andy Seaborne</a> はCSVバグを指摘してくれました．
+		<a href="http://twitter.com/kerfors">Kerstin Forsberg</a> は4/5つ星の例での'データハイライト'を提案してくれました．
+		<a href="http://twitter.com/vassilios">Vassilios Peristeras</a> は'何を'だけでなく'何故'を説明すべきだと提案してくれました．
+		 <a href="https://twitter.com/egonwillighagen">Egon Willighagen</a> はより詳細な1つ星の利益を提供してくれました．<a href='http://id.ecs.soton.ac.uk/person/1248'>Christopher Gutteridge</a>からの追加の貢献もありました．
+		このサイトはthe EC FP7 Support Action LOD-Around-The-Clock (<a href="http://latc-project.eu/">LATC</a>) の提供で運営されています．
+		</p>
+	</div>
+	<div id="footer">
+		<span>
+			最終更新日: <span property="dcterms:date" datatype="xsd:date">2012-04-03</span> by <a rel="dcterms:creator" href="http://sw-app.org/mic.xhtml#i">Michael</a> |
+		</span>
+		<span>
+			コードは <a href="https://github.com/mhausenblas/5stardata.info">GitHub</a> で公開されています．
+		</span>
+	</div>
+</body>
+</html>
+
+
+
