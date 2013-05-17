@@ -48,7 +48,7 @@
 		</tr>
 		<tr>
 			<td class="stars">&#x2605;&#x2605;&#x2605;&#x2605;</td>
-			<td>use URIs to identify things, so that people can point at your stuff<a class="footnote" href="#addendum4" title="view costs and benefits of 4 star data">4</a></td>
+			<td>use URIs to denote things, so that people can point at your stuff<a class="footnote" href="#addendum4" title="view costs and benefits of 4 star data">4</a></td>
 			<td><a href="gtd-4.html" title="4 star Galway temperature data">example ...</a></td>
 		</tr>
 		<tr>
@@ -70,11 +70,14 @@
 				<li>&#10004; You can look at it.</li>
 				<li>&#10004; You can print it.</li>
 				<li>&#10004; You can store it locally (on your hard drive or on an USB stick).</li>
-				<li>&#10004; You can enter the data manually into another system.</li>
+				<li>&#10004; You can enter the data into any other system.</li>
+				<li>&#10004; You can change the data as you wish.</li>
+				<li>&#10004; You can share the data with anyone you like.</li>
 			</ul>
 			<p>As a publisher ...</p>
 			<ul class="check">
 				<li>&#10004; It's simple to publish.</li>
+				<li>&#10004; You do not have explain repeatedly to others that they can use your data.</li>
 			</ul>
 		</div>
 		<div class="rightcol">
@@ -121,7 +124,7 @@
 			</ul>
 			<p>As a publisher ...</p>
 			<ul class="check">
-				<li>&#10004; You might need converters or plug-ins to export the data from the proprietary format.</li>
+				<li>&#9888; You might need converters or plug-ins to export the data from the proprietary format.</li>
 				<li>&#10004; It's still rather simple to publish.</li>
 			</ul>
 		</div>
@@ -144,12 +147,18 @@
 				<li>&#10004; You can link to it from any other place (on the Web or locally).</li>
 				<li>&#10004; You can bookmark it.</li>
 				<li>&#10004; You can reuse parts of the data.</li>
+				<li>&#10004; You may be able to reuse existing tools and libraries, even if they only understand parts of the pattern the publisher used.</li>
+				<li>&#9888; Understanding the structure of an RDF "Graph" of data can be more effort than tabular (Excel/CSV) or tree (XML/JSON) data.</li>
+				<li>&#10004; You can combine the data safely with other data. URIs are a global scheme so if two things have the same URI then it's intentional, and if so that's well on it's way to being 5 star data!</li>
+	
 			</ul>
 			<p>As a publisher ...</p>
 			<ul class="check">
-				<li>&#10004; You typically invest some time slicing and dicing your data.</li>
-				<li>&#10004; You'll need to assign URIs to data items and think about how to represent the data.</li>
 				<li>&#10004; You have fine-granular control over the data items and can optimise their access (load balancing, caching, etc.)</li>
+				<li>&#10004; Other data publishers can now link into your data, promoting it to 5 star!</li>
+				<li>&#9888; You typically invest some time slicing and dicing your data.</li>
+				<li>&#9888; You'll need to assign URIs to data items and think about how to represent the data.</li>
+				<li>&#9888; You need to either find existing patterns to reuse or create your own.</li>
 			</ul>
 		</div>
 		<div class="rightcol">
@@ -170,12 +179,16 @@
 			<ul class="check">
 				<li>&#10004; You can discover more (related) data while consuming the data.</li>
 				<li>&#10004; You can directly learn about the data schema.</li>
+				<li>&#9888; You now have to deal with broken data links, just like 404 errors in web pages.</li>
+				<li>&#9888; Presenting data from an arbitrary link as fact is as risky as letting people include content from any website in your pages. Caution, trust and common sense are all still necessary.</li>
 			</ul>
 			<p>As a publisher ...</p>
 			<ul class="check">
-				<li>&#10004; You'll need to invest resources to link your data to other data on the Web.</li>
 				<li>&#10004; You make your data discoverable.</li>
 				<li>&#10004; You increase the value of your data.</li>
+				<li>&#10004; You own organisation will gain the same benefits from the links as the consumers.</li>
+				<li>&#9888; You'll need to invest resources to link your data to other data on the Web.</li>
+				<li>&#9888; You may need to repair broken or incorrect links.</li>
 			</ul>
 		</div>
 		<div class="rightcol">
@@ -197,6 +210,8 @@
 			<a href="http://inkdroid.org/ehs">Ed Summers</a> has provided a <a href="http://inkdroid.org/journal/2010/06/04/the-5-stars-of-open-linked-data/" title="the 5 stars of open linked data">nice rendering</a> of the 5 star scheme that we're building upon here.
 		</li>
 		<li>If you have Open Data, you might want to use the <a href="http://lab.linkeddata.deri.ie/2010/lod-badges/">star badges</a> to flag your compliance level.</li>
+		<li>James G. Kim provided a <a href="http://5stardata.info/kr/" title="별점 5 오픈 데이터">Korean translation</a> of this site.</li>
+                <li>Christopher Gutteridge has a <a href='http://openorg.ecs.soton.ac.uk/wiki/Linked_Data_Basics_for_Techies'>Linked Data crash course for programmers</a>.</li>
 	</ul>
 	
 	<div id="ack">
@@ -204,12 +219,13 @@
 			Kudos to <a href="http://twitter.com/andyseaborne">Andy Seaborne</a> for pointing out the CSV bug, 
 		to <a href="http://twitter.com/kerfors">Kerstin Forsberg</a> for suggesting the 'data highlighting' in the 4/5 star examples, 
 		as well as to <a href="http://twitter.com/vassilios">Vassilios Peristeras</a> for proposing to explain not only
-		the 'what' but also the 'why'. This site is brought to you by the EC FP7 Support Action LOD-Around-The-Clock (<a href="http://latc-project.eu/">LATC</a>).
+		the 'what' but also the 'why'. Thanks to <a href="https://twitter.com/egonwillighagen">Egon Willighagen</a> for providing more details about benefits of one-star data. Additional contributions from <a href='http://id.ecs.soton.ac.uk/person/1248'>Christopher Gutteridge</a>.
+		This site is brought to you by the EC FP7 Support Action LOD-Around-The-Clock (<a href="http://latc-project.eu/">LATC</a>).
 		</p>
 	</div>
 	<div id="footer">
 		<span>
-			Last update: <span property="dcterms:date" datatype="xsd:date">2012-01-22</span> by <a rel="dcterms:creator" href="http://sw-app.org/mic.xhtml#i">Michael</a> |
+			Last update: <span property="dcterms:date" datatype="xsd:date">2012-04-03</span> by <a rel="dcterms:creator" href="http://sw-app.org/mic.xhtml#i">Michael</a> |
 		</span>
 		<span>
 			Code available via <a href="https://github.com/mhausenblas/5stardata.info">GitHub</a>
