@@ -13,22 +13,25 @@
 	<script type="text/javascript" src="../data-highlight.js"></script>
 </head>
 <body>
-	
+
 <div>
 	<button id="show-data">임베디드 데이터 보기</button>
 	<div id="hint">
 		<p>
 		  RDFa로 인코딩된 임베디드 데이터를 보기 위해서는 붉은 점선으로 표시된 영역 위로 마우스를 가져가세요.
-		  또한, 웹 데이터 인스펙터를 통해 <a href="http://inspector.sindice.com/inspect?url=http://5stardata.info/gtd-4.html">외부에서 데이터를 볼 수도 있습니다</a>.
+		  또한, 웹 데이터 인스펙터나 <a href="http://graphite.ecs.soton.ac.uk/browser/?uri=http%3A%2F%2F5stardata.info%2Fkr%2Fstd-4.html">그라파이트 브라우저</a> 등 다른 도구를 이용해 <a href="http://inspector.sindice.com/inspect?url=http://5stardata.info/kr/std-4.html">데이터를 외부에서 볼 수도 있습니다</a>.
 		</p>
 		<p>
 		  별점 4에 대한 이 예제에서는 기온 예보를 표현하기 위해 <a href="http://purl.org/ns/meteo#">Meteo</a> 어휘를 사용합니다.
 		  각각의 예보는 URI를 갖으며(예를 들어, '<a href="#forecast20120207">2012년 2월 7일 화요일 예보</a>'), 이 URI는 다른 상황에서도 사용될 수 있습니다.
 		</p>
+		<p>
+			소스코드를 본다면 데이터가 계층적인 구조로 보일 수 있지만, 이는 착각입니다. 실제로는 무언가에 대한 개별 사실의 집합을 표현할 뿐입니다; "#Seoul"은 "장소(place)"이다, "#Seoul"은 "#forecast20120205"라는 기온 예보(forecast)를 갖는다, "#forecast20120205"는 "2012-02-05T00:00:00Z"의 예측(predicted)한다 등. 이들의 순서는 의미를 바꾸지 않으며 변경될 수 있습니다.
+		</p>
 	</div>
 </div>
 <h1 property="dcterms:title">서울 기온 예보</h1>
-	
+
 <div id="data" about="#Seoul" typeof="meteo:Place">
 <table border="1px">
 	<tr>
@@ -73,7 +76,7 @@
 	</tr>
 </table>
 </div>
-	
+
 <pre id="data-out"></pre>
 
 <div id="footer">
