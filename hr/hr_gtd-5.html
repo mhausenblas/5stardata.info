@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN" "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+  xmlns:xsd ="http://www.w3.org/2001/XMLSchema#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:meteo="http://purl.org/ns/meteo#">
+<head>
+	<title>Temeraturna prognoza za Karlovac, Hrvatska</title>
+	<link type="text/css" href="../style.css" rel="stylesheet" />
+	<script type="text/javascript" src="../jquery-1.4.2.min.js"></script>
+	<script type="text/javascript" src="../data-highlight.js"></script>
+</head>
+<body>
+<div>
+	<button id="show-data">Pokaži ugrađene podatke</button>
+	<div id="hint">
+		<p>
+			Pogledajte ugrađene podatke kodirane u <a href="http://rdfa.info/wiki/RDFa_Wiki">RDF</a> obliku tako da zadržite pokazivač iznad područja s crvenom točkom.
+			Možete također <a href="http://inspector.sindice.com/inspect?url=http://5stardata.info//hr/hr_gtd-5.html">pogledati podatke izvana</a> korištenjem Web Data Inspector, ili <a href="http://graphite.ecs.soton.ac.uk/browser/?uri=http%3A%2F%2F5stardata.info%2Fhr%2Fhr_gtd-5.html">Graphite Browser</a> ili pomoću nekih drugih alata.
+		</p>
+		<p>
+			U ovom primjeru koristili smo <a href="http://purl.org/ns/meteo#">Meteo</a> rječnik za reprezentaciju temperaturne prognoze.
+			Svaka prognoza ima vlastiti URI. Na primjer '<a href="#forecast20140319">prognoza za srijedu, 19.03.2014.</a>'), koja može biti korištena u drugom kontekstu.
+			Dodatno, kroz povezivanje mjesta (<code>#Karlovac</code>) na DBpedia stranicu <a href="http://dbpedia.org/resource/Karlovac">Karlovac</a>,
+			dodatno smo ga objasnili. Postepeno dodajemo kontekst za interpretaciju <code>#temp</code> kroz povezivanje sa stranicama na DBpedia (<a href="http://dbpedia.org/resource/Temperature">temperatura</a> i <a href="http://dbpedia.org/resource/Celsius">Celzijus</a>).
+		</p>
+	</div>
+</div>
+<h1 property="dcterms:title">Temeraturna prognoza za Karlovac, Hrvatska</h1>
+	
+<div id="data" about="#Karlovac" typeof="meteo:Place">
+<span rel="owl:sameAs" resource="http://dbpedia.org/resource/Karlovac"></span>
+<table border="1px">
+	<tr>
+		<th>Datum</th>
+		<th>
+			<div about="#temp">
+				Najniža 
+				<a rel="rdfs:seeAlso" href="http://en.wikipedia.org/wiki/Temperature" resource="http://dbpedia.org/resource/Temperature">temperatura</a>
+				(<span rel="owl:sameAs" resource="http://dbpedia.org/resource/Celsius">&deg;C</span>)
+			</div>
+		</th>
+	</tr>
+	<tr rel="meteo:forecast" resource="#forecast20140317">
+		<td>
+			<div about="#forecast20140317">
+				<span property="meteo:predicted" content="2014-03-17T00:00:00Z" datatype="xsd:dateTime">Ponedjeljak, 17.03.2014.</span>
+			</div>
+		</td>
+		<td rel="meteo:temperature">
+			<div about="#temp20140317">
+				<span property="meteo:celsius" datatype="xsd:decimal">5</span>
+			</div>
+		</td>
+	</tr>
+	<tr rel="meteo:forecast" resource="#forecast20140318">
+		<td>
+			<div about="#forecast20140318">
+				<span property="meteo:predicted" content="2014-03-18T00:00:00Z" datatype="xsd:dateTime">Utorak, 18.03.2014.</span>
+			</div>
+		</td>
+		<td rel="meteo:temperature">
+			<div about="#temp20140318">
+				<span property="meteo:celsius" datatype="xsd:decimal">8</span>
+			</div>
+		</td>
+	</tr>
+	<tr rel="meteo:forecast" resource="#forecast20140319">
+		<td>
+			<div about="#forecast20140319">
+				<span property="meteo:predicted" content="2014-03-19T00:00:00Z" datatype="xsd:dateTime">Srijeda, 19.03.2014.</span>
+			</div>
+		</td>
+		<td rel="meteo:temperature">
+			<div about="#temp20140319">
+				<span property="meteo:celsius" datatype="xsd:decimal">10</span>
+			</div>
+		</td>
+	</tr>
+</table>
+</div>
+	
+<pre id="data-out"></pre>
+	
+
+<div id="footer">
+	<span>
+		Posljednje ažuriranje: <span property="dcterms:date" datatype="xsd:date">2014-03-17</span><a rel="dcterms:creator" href="https://github.com/codeforcroatia">Miroslav</a> |
+	</span>
+	<span>
+		Kod dostupan na <a href="https://github.com/mhausenblas/5stardata.info">GitHub</a>
+	</span>
+</div>
+</body>
+</html>
