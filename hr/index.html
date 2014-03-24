@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN" "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+  xmlns:xsd ="http://www.w3.org/2001/XMLSchema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+>
+<head>
+    <title>5 zvjezdica za otvorene podatke</title>
+    <link type="text/css" href="../style.css" rel="stylesheet" />
+</head>
+<body>
+	<div id="menu"><a href="#by-example">Primjeri</a> | <a href="#cost-benefits">Troškovi i koristi</a> | <a href="#see-also">Dodatne informacije</a></div>
+
+	<h1 property="dcterms:title">5 &#x2605; otvorenih podataka</h1>
+
+	<p id="about" class="narrow">
+		<a href="http://www.w3.org/People/Berners-Lee/card#i">Tim Berners-Lee</a>, izumitelj weba i inicijator povezanih podataka, predložio je <a href="http://www.w3.org/DesignIssues/LinkedData.html">shemu implementacije s 5 zvjezdica</a> za otvorene podatke. Ovdje ćemo dati primjer za svaku zvjezdicu i objasniti ćemo troškove i koristi koje dolaze s ovakvim načinom ocjenjivanja.
+	</p>
+	<div class="img-container">
+		<img src="../5star-steps.png" alt="5-star steps by example" />
+	</div>
+
+	<div class="sep"></div>
+
+	<h2 id="by-example">Primjeri</h2>
+	<p>
+		Niže su primjeri za svaku razinu ocjene 5 zvjezdica otvorenih podataka. Podaci korišteni u pokaznim primjerima su '<em>temperaturna prognoza za Karlovac u sljedeća 3 dana</em>':
+	</p>
+
+	<table>
+		<tr>
+			<td class="stars">&#x2605;</td>
+			<td>omogućite dostupnost podataka na internetu u bilo kojem obliku pod otvorenom dozvolom<a class="footnote" href="#addendum1" title="pogledaj troškove i koristi podataka s 1 zvjezdicom">1</a></td>
+			<td><a href="hr_gtd-1.pdf" title="1 zvjezdica za podatke o temperaturi">primjer</a></td>
+		</tr>
+		<tr>
+			<td class="stars">&#x2605;&#x2605;</td>
+			<td>omogućite dostupnost strukturiranih podataka (npr. Excel umjesto skenirane slike tablice)<a class="footnote" href="#addendum2" title="pogledaj troškove i koristi podataka s 2 zvjezdice">2</a></td>
+			<td><a href="hr_gtd-2.xls" title="2 zvjezdice za podatke o temperaturi">primjer</a></td>
+		</tr>
+		<tr>
+			<td class="stars">&#x2605;&#x2605;&#x2605;</td>
+			<td>koristite neutralne oblike (npr. CSV umjesto Excela)<a class="footnote" href="#addendum3" title="pogledaj troškove i koristi podataka s 3 zvjezdice">3</a></td>
+			<td><a href="hr_gtd-3.csv" title="3 zvjezdice za podatke o temperaturi">primjer</a></td>
+		</tr>
+		<tr>
+			<td class="stars">&#x2605;&#x2605;&#x2605;&#x2605;</td>
+			<td>koristite URI za označavanje stvari tako da drugi mogu pristupiti izravno vašim podacima<a class="footnote" href="#addendum4" title="pogledaj troškove i koristi podataka s 4 zvjezdice">4</a></td>
+			<td><a href="hr_gtd-4.html" title="4 zvjezdice za podatke o temperaturi">primjer</a></td>
+		</tr>
+		<tr>
+			<td class="stars">&#x2605;&#x2605;&#x2605;&#x2605;&#x2605;</td>
+			<td>povežite vaše podatke s drugim podacima za prožanje konteksta<a class="footnote" href="#addendum5" title="pogledaj troškove i koristi podataka s 5 zvjezdica">5</a></td>
+			<td><a href="hr_gtd-5.html" title="5 zvjezdica za podatke o temperaturi">primjer</a></td>
+		</tr>
+	</table>
+
+	<div class="sep"></div>
+
+	<h2 id="cost-benefits">Troškovi i koristi</h2>
+
+	<div class="addendum" id="addendum1">
+		<div class="leftcol">
+			<h2>Koji su troškovi i koristi <span class="stars-inline">&#x2605;</span> web podataka?</h2>
+			<p>Kao korisnika podataka:</p>
+			<ul class="check">
+				<li>&#10004; Možete ih pogledati.</li>
+				<li>&#10004; Možete ih ispisati.</li>
+				<li>&#10004; Možete ih spremiti na vaše računalo.</li>
+				<li>&#10004; Možete unijeti podatke u neki drugi sustav.</li>
+				<li>&#10004; Možete promijeniti podatke kako želite.</li>
+				<li>&#10004; Možete podijeliti podatke s kime želite.</li>
+			</ul>
+			<p>Kao nositelja podataka:</p>
+			<ul class="check">
+				<li>&#10004; Jednostavno ih je objaviti.</li>
+				<li>&#10004; Ne trebate objašnjavati iznova drugima da mogu koristiti vaše podatke.</li>
+			</ul>
+		</div>
+		<div class="rightcol">
+			<div class="squo">&ldquo;</div>
+			<p>
+				Odlično je imati podatke dostupne na internetu pod otvorenom dozvolom (poput <a href="http://www.opendatacommons.org/licenses/pddl/" title="Open Data Commons   &raquo; Public Domain Dedication and License (PDDL)">PDDL</a>, <a href="http://www.opendatacommons.org/licenses/by/" title="Open Data Commons   &raquo; Open Data Commons Attribution License">ODC-by</a> ili <a href="http://creativecommons.org/publicdomain/zero/1.0/" title="Creative Commons &mdash;CC0 1.0 Universal">CC0</a>), ipak informacije su zaključane u dokumentu.
+				Teško je izvući podatke iz dokumenta, osim ako napišete vlastitu skriptu za izvlačenje informacija.
+			</p>
+			<div class="equo">&rdquo;</div>
+		</div>
+		<div class="sidecol"></div>
+	</div>
+
+	<div class="addendum" id="addendum2">
+		<div class="leftcol">
+			<h2>Koji su troškovi i koristi <span class="stars-inline">&#x2605;&#x2605;</span> web podataka?</h2>
+			<p>Kao korisnik možete učiniti isto što i s <span class="stars-inline">&#x2605;</span> web podacima i dodatno:</p>
+			<ul class="check">
+				<li>&#10004; Možete ih izravno obraditi u licenciranim aplikacijama za daljnju agregaciju, obavljati izračune, vizualizirati ih, itd.</li>
+				<li>&#10004; Možete ih izvesti u druge (strukturirane) oblike.</li>
+			</ul>
+			<p>Kao nositelj podataka:</p>
+			<ul class="check">
+				<li>&#10004; Još uvijek ih je jednostavno objaviti.</li>
+			</ul>
+		</div>
+		<div class="rightcol">
+			<div class="squo">&ldquo;</div>
+			<p>
+				Izvrsno! Podaci su dostupni na internetu u strukturiranom obliku (odnosno strojno čitljivom), ipak podaci su i dalje zaključani u dokumentu.
+				Da bismo dobili ove podatke iz dokumenta, ovisimo o licenciranom softveru.
+			</p>
+			<div class="equo">&rdquo;</div>
+		</div>
+		<div class="sidecol"></div>
+	</div>
+
+	<div class="addendum" id="addendum3">
+		<div class="leftcol">
+			<h2>Koji su troškovi i koristi <span class="stars-inline">&#x2605;&#x2605;&#x2605;</span> web podataka?</h2>
+			<p>Kao korisnik možete učiniti isto što i s <span class="stars-inline">&#x2605;&#x2605;</span> web podacima i dodatno:</p>
+			<ul class="check">
+				<li>&#10004; Možete manipulirati podacima na način na koji želite i istovremeno niste ograničeni mogućnostima određenog softvera.</li>
+			</ul>
+			<p>Kao nositelj podataka:</p>
+			<ul class="check">
+				<li>&#9888; Možda ćete trebati pretvarače ili dodatke da izvezete podatke iz zatvorenog oblika.</li>
+				<li>&#10004; Ipak je i dalje jednostavno objaviti podatke.</li>
+			</ul>
+		</div>
+		<div class="rightcol">
+			<div class="squo">&ldquo;</div>
+			<p>
+				Odlično! Podaci nisu samo dostupni na internetu već sada bilo tko može jednostavno koristiti podatke.
+				U drugu ruku, to su podaci na internetu a ne <a href="http://webofdata.wordpress.com/2010/03/01/data-and-the-web-choices/" title="Data and the Web &#8211; a great many of choices  &laquo;  Web of Data">podaci u internetu</a>.
+			</p>
+			<div class="equo">&rdquo;</div>
+		</div>
+		<div class="sidecol"></div>
+	</div>
+
+	<div class="addendum" id="addendum4">
+		<div class="leftcol">
+			<h2>Koji su troškovi i koristi <span class="stars-inline">&#x2605;&#x2605;&#x2605;&#x2605;</span> web podataka?</h2>
+			<p>Kao korisnik možete učiniti isto što i s <span class="stars-inline">&#x2605;&#x2605;&#x2605;</span> web podacima i dodatno:</p>
+			<ul class="check">
+				<li>&#10004; Možete pokazivati izravno na njih s nekog drugog internetskog mjesta.</li>
+				<li>&#10004; Možete spremiti izravnu poveznicu na njih u vaše favorite.</li>
+				<li>&#10004; Možete ponovno upotrijebiti dijelove podataka.</li>
+				<li>&#10004; U mogućnosti ste da ponovno upotrijebite alate i dodatke čak i kada razumijete samo dio uzorka koji je nositelj podataka koristio.</li>
+				<li>&#9888; Razumijevanje strukture RDF grafikona podataka može biti teže nego tabličnih (Excel/CSV) ili razgranatih (XML/JSON) podataka.</li>
+				<li>&#10004; Možete vrlo jednostavno uparivati podatke s drugim podacima. URI je globalna shema te ukoliko ima isti URI onda je to namjerno, i tada su na dobrom putu da postanu podaci s 5 zvjezdica!</li>
+
+			</ul>
+			<p>Kao nositelj podataka:</p>
+			<ul class="check">
+				<li>&#10004; Imate kontrolu nad podacima te im možete optimizirati pristup (balasirati opterećenje, predmemoriranje, itd.)</li>
+				<li>&#10004; Drugi nositelji podataka sada mogu povezati na vaše podatke, promičući ih na podatke s 5 zvijezdica!</li>
+				<li>&#9888; Obično ulažete nešto vremena u razdvajanje vaših podataka.</li>
+				<li>&#9888; Trebati ćete dodijeliti URI stavkama vaših podataka i razmisliti kako prikazati podatke.</li>
+				<li>&#9888; Trebate naći postojeći uzorak koji ćete ponovno upotrijebiti ili ćete kreirati svoj vlastiti.</li>
+			</ul>
+		</div>
+		<div class="rightcol">
+			<div class="squo">&ldquo;</div>
+			<p>
+				Divno! Sada su to podaci <strong>u</strong> interentu. One (najvažnije) stavke podataka imaju URI i mogu se dijeliti na internetu.
+				Najprirodniji način predstavljanja podataka je korištenjem RDF, ipak i drugi oblici poput Atom mogu biti pretvoreni/mapirani za korištenje ukoliko je to potrebno.
+			</p>
+			<div class="equo">&rdquo;</div>
+		</div>
+		<div class="sidecol"></div>
+	</div>
+
+	<div class="addendum" id="addendum5">
+		<div class="leftcol">
+			<h2>Koji su troškovi i koristi <span class="stars-inline">&#x2605;&#x2605;&#x2605;&#x2605;&#x2605;</span> web podataka?</h2>
+			<p>Kao korisnik možete učiniti isto što i s <span class="stars-inline">&#x2605;&#x2605;&#x2605;&#x2605;</span> web podacima i dodatno:</p>
+			<ul class="check">
+				<li>&#10004; Možete otkriti više (povezanih) podataka prilikom korištenja podatka.</li>
+				<li>&#10004; Možete saznati o podatkovnoj shemi izravno na mjestu.</li>
+				<li>&#9888; Sada ćete možda naići na loše interentske poveznice, poput 404 grešaka.</li>
+				<li>&#9888; Predstavljanje podatka s proizvoljnom vezom je rizično jer omogućuje ljudima uključivanje sadržaja iz bilo koje web stranice na svojim stranicama. Oprez, povjerenje i zdrav razum su još uvijek potrebni.</li>
+			</ul>
+			<p>Kao nositelj podataka:</p>
+			<ul class="check">
+				<li>&#10004; Vaše podatke možete učiniti laganim za pronaći.</li>
+				<li>&#10004; Povećavate vrijednost vaših podataka.</li>
+				<li>&#10004; Vaša organizacija će dobiti iste koristi iz povezivanja kao i korisnik.</li>
+				<li>&#9888; Trebati ćete uložiti u resurse za povezivanje vaših podataka s drugim podacima na interentu.</li>
+				<li>&#9888; Trebati ćete popraviti loše ili netočne internetske poveznice.</li>
+			</ul>
+		</div>
+		<div class="rightcol">
+			<div class="squo">&ldquo;</div>
+			<p>
+				Briljantno! To su sada podaci <strong>u</strong> internetu <strong>povezani s</strong> drugim podacima. I korisnici i nositelji podataka
+				imaju koristi iz <a href="http://en.wikipedia.org/wiki/Network_effect" title="Network effect - Wikipedia, the free encyclopedia">mrežnog efekta</a>.
+			</p>
+			<div class="equo">&rdquo;</div>
+		</div>
+		<div class="sidecol"></div>
+	</div>
+
+	<div class="sep"></div>
+
+	<h2 id="see-also">Dodatne informacije</h2>
+	<ul>
+		<li>
+			<a href="http://inkdroid.org/ehs">Ed Summers</a> je dao <a href="http://inkdroid.org/journal/2010/06/04/the-5-stars-of-open-linked-data/" title="the 5 stars of open linked data">lijepu sliku</a> sheme 5 zvijezdica podataka koju smo prikazali ovdje.
+		</li>
+		<li>Ako imate otvorene podatke, možda biste željeli koristiti <a href="http://lab.linkeddata.deri.ie/2010/lod-badges/">zvjezdice</a> da označite razinu vaših podataka.</li>
+		<li>Miroslav Schlossberg iz grupe <a href="http://codeforcroatia.open.hr/">Kodiraj za Hrvatsku</a> je napisao <a href="http://5stardata.info/hr/" title="5 zvijezdica za otvorene podatke">prijevod na hrvatski jezik</a>.</li>
+                <li>Christopher Gutteridge ima <a href='http://openorg.ecs.soton.ac.uk/wiki/Linked_Data_Basics_for_Techies'>brzi tečaj povezanih podataka za programere</a>.</li>
+                <li><a href='http://theodi.org'>Open Data Institute</a> vam pomaže da ceritificirate vaše otvorene podatke s <a href='https://certificates.theodi.org'>certifikatom otvorenih podataka</a>.</li>
+	</ul>
+
+	<div id="ack">
+		<p>
+			Zahvale <a href="http://twitter.com/andyseaborne">Andy Seaborne</a> za prijavu greske u CSV-u,
+		<a href="http://twitter.com/kerfors">Kerstin Forsberg</a> za prijedlog naglašavanja podataka u primjerima s 4/5 zvijezdica,
+		isto tako i <a href="http://twitter.com/vassilios">Vassilios Peristeras</a> na predlaganju da objašnjenja ne budu samo 'što' već i 'zašto'.
+		Hvala <a href="https://twitter.com/egonwillighagen">Egon Willighagen</a> na detaljima o koristi za podatke s jednom zvjezdicom. Dodatne zasluge idu i <a href='http://id.ecs.soton.ac.uk/person/1248'>Christopher Gutteridge</a>.
+		Ovu stranicu donosi vam EC FP7 Support Action LOD-Around-The-Clock (<a href="http://latc-project.eu/">LATC</a>).
+		</p>
+	</div>
+	<div id="footer">
+		<span>
+			Posljednje ažuriranje: <span property="dcterms:date" datatype="xsd:date">2014-03-23</span>, <a rel="dcterms:creator" href="https://github.com/codeforcroatia">Miroslav</a> |
+		</span>
+		<span>
+			Kod je dostupan na <a href="https://github.com/mhausenblas/5stardata.info">GitHub</a>
+		</span>
+	</div>
+</body>
+</html>
