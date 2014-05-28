@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN" "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+  xmlns:xsd ="http://www.w3.org/2001/XMLSchema#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:meteo="http://purl.org/ns/meteo#">
+<head>
+	<title>Previsão do tempo para Galway, Irlanda</title>
+	<link type="text/css" href="../style.css" rel="stylesheet" />
+	<script type="text/javascript" src="../jquery-1.4.2.min.js"></script>
+	<script type="text/javascript" src="../data-highlight.js"></script>
+</head>
+<body>
+<div>
+	<button id="show-data">Mostrar dados</button>
+	<div id="hint">
+		<p>
+			Para ver os dados embedados em  <a href="http://rdfa.info/wiki/RDFa_Wiki">RDFa</a>, passe o mouse por cima da linha pontilhada.
+			Você também pode <a href="http://inspector.sindice.com/inspect?url=http://5stardata.info/gtd-5.html">ver os dados</a> No Web Data Inspector, ou <a href="http://graphite.ecs.soton.ac.uk/browser/?uri=http%3A%2F%2F5stardata.info%2Fgtd-5.html">Graphite Browser</a> ou outras ferramentas.
+		</p>
+		<p>
+			Neste exemplo de 5 estrelas, nós utilizamos o vocabulário <a href="http://purl.org/ns/meteo#">Meteo</a> para representar a temperatura. 
+			Cada tomada de temperatura tem uma URI (por exemplo, '<a href="#forecast20101115">previsão para segunda, 15 de novembro de 2010</a>'), que pode ser utilizado em outro contexto.
+			Adicionalmente, linkando o (<code>#Galway</code>) à entrada da DBpedia <a href="http://dbpedia.org/resource/Galway">Galway</a>,
+			fizemos a desambiguação. Contextualizamos a interpretação da <code>#temp</code> através de seus respectivos links para a DBpedia(<a href="http://dbpedia.org/resource/Temperature">Temperatura</a> e <a href="http://dbpedia.org/resource/Celsius">Celsius</a>).
+		</p>
+	</div>
+</div>
+<h1 property="dcterms:title">Previsão do tempo para Galway, Irlanda</h1>
+	
+<div id="data" about="#Galway" typeof="meteo:Place">
+<span rel="owl:sameAs" resource="http://dbpedia.org/resource/Galway"></span>
+<table border="1px">
+	<tr>
+		<th>Dia</th>
+		<th>
+			<div about="#temp">
+				Mínima 
+				<a rel="rdfs:seeAlso" href="http://en.wikipedia.org/wiki/Temperature" resource="http://dbpedia.org/resource/Temperature">Temperatura</a>
+				(<span rel="owl:sameAs" resource="http://dbpedia.org/resource/Celsius">&deg;C</span>)
+			</div>
+		</th>
+	</tr>
+	<tr rel="meteo:forecast" resource="#forecast20101113">
+		<td>
+			<div about="#forecast20101113">
+				<span property="meteo:predicted" content="2010-11-13T00:00:00Z" datatype="xsd:dateTime">Sábado, 13 de novembro de 2010</span>
+			</div>
+		</td>
+		<td rel="meteo:temperature">
+			<div about="#temp20101113">
+				<span property="meteo:celsius" datatype="xsd:decimal">2</span>
+			</div>
+		</td>
+	</tr>
+	<tr rel="meteo:forecast" resource="#forecast20101114">
+		<td>
+			<div about="#forecast20101114">
+				<span property="meteo:predicted" content="2010-11-14T00:00:00Z" datatype="xsd:dateTime">Domingo, 14 de novembro de 2010</span>
+			</div>
+		</td>
+		<td rel="meteo:temperature">
+			<div about="#temp20101114">
+				<span property="meteo:celsius" datatype="xsd:decimal">4</span>
+			</div>
+		</td>
+	</tr>
+	<tr rel="meteo:forecast" resource="#forecast20101115">
+		<td>
+			<div about="#forecast20101115">
+				<span property="meteo:predicted" content="2010-11-15T00:00:00Z" datatype="xsd:dateTime">Segunda, 15 de novembro de 2010</span>
+			</div>
+		</td>
+		<td rel="meteo:temperature">
+			<div about="#temp20101115">
+				<span property="meteo:celsius" datatype="xsd:decimal">7</span>
+			</div>
+		</td>
+	</tr>
+</table>
+</div>
+	
+<pre id="data-out"></pre>
+	
+
+<div id="footer">
+	<span>
+		Última atualizacão: <span property="dcterms:date" datatype="xsd:date">2012-01-22</span> feita por <a rel="dcterms:creator" href="http://sw-app.org/mic.xhtml#i">Michael</a> |
+	</span>
+	<span>
+		Código disponível em <a href="https://github.com/mhausenblas/5stardata.info">GitHub</a>
+	</span>
+</div>
+</body>
+</html>
+
+
+
