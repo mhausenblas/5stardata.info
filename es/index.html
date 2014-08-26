@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN" "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+  xmlns:xsd ="http://www.w3.org/2001/XMLSchema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+>
+<head> 
+	<title>5 estrellas de Datos Abiertos</title>
+	<link type="text/css" href="style.css" rel="stylesheet" />
+</head>
+<body>
+	<div id="menu"><a href="#ejemplos">Ejemplos</a> | <a href="#costos-beneficios">Costos y Beneficios</a> | <a href="#ver-tambien">Ver Tambi&eacute;n</a></div>
+
+	<h1 property="dcterms:title">5 &#x2605; Datos Abiertos</h1>
+
+	<p id="about" class="narrow">
+		<a href="http://es.wikipedia.org/wiki/Tim_Berners-Lee">Tim Berners-Lee</a>, el inventor de la Web e iniciador de los Datos Enlazados (Linked Data), sugiri&oacute; un <a href="https://translate.google.com/translate?sl=en&tl=es&js=y&prev=_t&hl=es-419&ie=UTF-8&u=http%3A%2F%2Fwww.w3.org%2FDesignIssues%2FLinkedData.html&edit-text=&act=url">esquema de desarrollo de 5 estrellas</a> para Datos Abiertos. A continuaci&oacute;n te mostramos ejemplos para cada escal&oacute;n o nivel de estrellas y te explicamos los costos y beneficios involucrados en cada caso.
+	</p>
+	<div class="img-container">
+		<img src="5star-steps.png" alt="5-star steps by example" />
+	</div>
+
+	<div class="sep"></div>
+
+	<h2 id="ejemplos">Ejemplos ...</h2>
+	<p>
+		A continuaci&oacute;n te presentamos ejemplos para cada nivel del esquema de 5 estrellas de Datos Abiertos de Tim. Los datos utilizados para los ejemplos son '<em>pron&oacute;stico de temperatura para la ciudad de Galway en Irlanda para los pr&oacute;ximos 3 d&iacute;as</em>':
+	</p>
+
+	<table>
+		<tr>
+			<td class="stars">&#x2605;</td>
+			<td>publica tus datos en la Web (con cualquier formato) y bajo una licencia abierta<a class="footnote" href="#addendum1" title="Ver costos y beneficios del nivel de 1 estrella">1</a></td>
+			<td><a href="gtd-1.pdf" title="Nivel 1 estrella de datos de temperatura de Galway">ejemplo ...</a></td>
+		</tr>
+		<tr>
+			<td class="stars">&#x2605;&#x2605;</td>
+			<td>publ&iacute;calos como datos estructurados (ej: Excel en vez de una imagen de una tabla escaneada)<a class="footnote" href="#addendum2" title="Ver costos y beneficios del nivel de 2 estrellas">2</a></td>
+			<td><a href="gtd-2.xls" title="Nivel 2 estrellas de datos de temperatura de Galway">ejemplo ...</a></td>
+		</tr>
+		<tr>
+			<td class="stars">&#x2605;&#x2605;&#x2605;</td>
+			<td>usa formatos no propietarios (ej: CSV en vez de Excel)<a class="footnote" href="#addendum3" title="Ver costos y beneficios del nivel de 3 estrellas">3</a></td>
+			<td><a href="gtd-3.csv" title="Nivel 3 estrellas de datos de temperatura de Galway">ejemplo ...</a></td>
+		</tr>
+		<tr>
+			<td class="stars">&#x2605;&#x2605;&#x2605;&#x2605;</td>
+			<td>usa URIs para denotar cosas, as&iacute; la gente puede apuntar a estas<a class="footnote" href="#addendum4" title="Ver costos y beneficios del nivel de 4 estrellas">4</a></td>
+			<td><a href="gtd-4.html" title="Nivel 4 estrellas de datos de temperatura de Galway">ejemplo ...</a></td>
+		</tr>
+		<tr>
+			<td class="stars">&#x2605;&#x2605;&#x2605;&#x2605;&#x2605;</td>
+			<td>enlaza tus datos a otros datos para proveer contexto<a class="footnote" href="#addendum5" title="Ver costos y beneficios del nivel de 5 estrellas">5</a></td>
+			<td><a href="gtd-5.html" title="Nivel 5 estrellas de datos de temperatura de Galway">ejemplo ...</a></td>
+		</tr>
+	</table>
+
+	<div class="sep"></div>
+
+	<h2 id="costos-beneficios">Costos y Beneficios ...</h2>
+
+	<div class="addendum" id="addendum1">
+		<div class="leftcol">
+			<h2>¿Cu&aacute;les son los costos y beneficios de los datos publicados en el nivel <span class="stars-inline">&#x2605;</span>?</h2>
+			<p>Como consumidor ...</p>
+			<ul class="check">
+				<li>&#10004; Puedes verlos.</li>
+				<li>&#10004; Puedes imprimirlos.</li>
+				<li>&#10004; Puedes guardarlos localmente (en tu disco duro o en una memoria USB).</li>
+				<li>&#10004; Puedes ingresar los datos en cualquier otro sistema.</li>
+				<li>&#10004; Puedes cambiar los datos como quieras.</li>
+				<li>&#10004; Puedes compartir los datos con quien quieras.</li>
+			</ul>
+			<p>Como editor ...</p>
+			<ul class="check">
+				<li>&#10004; Es simple publicarlos.</li>
+				<li>&#10004; No tienes que explicar repetidamente a otros que pueden usar tus datos.</li>
+			</ul>
+		</div>
+		<div class="rightcol">
+			<div class="squo">&ldquo;</div>
+			<p>
+				Es grandioso tener datos accesibles en la Web bajo una licencia abierta (como <a href="http://www.opendatacommons.org/licenses/pddl/" title="Open Data Commons   &raquo; Public Domain Dedication and License (PDDL)">PDDL</a>, <a href="http://www.opendatacommons.org/licenses/by/" title="Open Data Commons   &raquo; Open Data Commons Attribution License">ODC-by</a> &oacute; <a href="http://creativecommons.org/publicdomain/zero/1.0/" title="Creative Commons &mdash;CC0 1.0 Universal">CC0</a>), sin embargo, los datos est&aacute;n atrapados en un documento. Adem&aacute;s de requerir la creaci&oacute;n de un software para extraer los datos, es dif&iacute;cil sacar los datos del documento.</p>
+			<div class="equo">&rdquo;</div>
+		</div>
+		<div class="sidecol"></div>
+	</div>
+
+	<div class="addendum" id="addendum2">
+		<div class="leftcol">
+			<h2>¿Cu&aacute;les son los costos y beneficios de los datos publicados en el nivel <span class="stars-inline">&#x2605;&#x2605;</span>?</h2>
+			<p>Como consumidor, puedes hacer todo lo que haces en el nivel <span class="stars-inline">&#x2605;</span> y adem&aacute;s:</p>
+			<ul class="check">
+				<li>&#10004; Puedes procesarlos directamente con software propietario para agregarlos, hacer c&aacute;lculos, visualizarlos, etc.</li>
+				<li>&#10004; Puedes exportarlos a otro formato (estructurado).</li>
+			</ul>
+			<p>Como editor ...</p>
+			<ul class="check">
+				<li>&#10004; Todav&iacute;a es simple publicarlos.</li>
+			</ul>
+		</div>
+		<div class="rightcol">
+			<div class="squo">&ldquo;</div>
+			<p>
+				¡Espl&eacute;ndido! Los datos son accesibles en la Web en forma estructurada (es decir, en formato para m&aacute;quinas), sin embargo, los datos todav&iacute;a est&aacute;n atrapados en un documento. Para extraerlos se necesita un software propietario.</p>
+			<div class="equo">&rdquo;</div>
+		</div>
+		<div class="sidecol"></div>
+	</div>
+
+	<div class="addendum" id="addendum3">
+		<div class="leftcol">
+			<h2>¿Cu&aacute;les son los costos y beneficios de los datos publicados en el nivel <span class="stars-inline">&#x2605;&#x2605;&#x2605;</span>?</h2>
+			<p>Como consumidor, puedes hacer todo lo que haces en el nivel <span class="stars-inline">&#x2605;&#x2605;</span> y adem&aacute;s:</p>
+			<ul class="check">
+				<li>&#10004; Puedes manipular los datos de cualquier forma que quieras, sin limitaci&oacute;n de caracter&iacute;sticas o de uso de alg&uacute;n tipo de software en particular.</li>
+			</ul>
+			<p>Como editor ...</p>
+			<ul class="check">
+				<li>&#9888; Podr&iacute;as necesitar convertidores o plug-ins para exportar los datos desde el formato propietario.</li>
+				<li>&#10004; Todav&iacute;a es relativamente simple publicarlos.</li>
+			</ul>
+		</div>
+		<div class="rightcol">
+			<div class="squo">&ldquo;</div>
+			<p>
+				¡Excelente! Los datos no solo est&aacute;n disponibles en la Web sino que tambi&eacute;n cualquiera puede utilizarlos f&aacute;cilmente. Por otro lado, todav&iacute;a son solo datos publicados en la Web y no <a href="https://translate.google.com/translate?sl=en&tl=es&js=y&prev=_t&hl=es-419&ie=UTF-8&u=http%3A%2F%2Fwebofdata.wordpress.com%2F2010%2F03%2F01%2Fdata-and-the-web-choices%2F&edit-text=&act=url" title="Los datos y la Web - un gran n&uacute;mero de opciones  &laquo;  Web of Data">datos integrados a la Web</a>.
+			</p>
+			<div class="equo">&rdquo;</div>
+		</div>
+		<div class="sidecol"></div>
+	</div>
+
+	<div class="addendum" id="addendum4">
+		<div class="leftcol">
+			<h2>¿Cu&aacute;les son los costos y beneficios de los datos publicados en el nivel <span class="stars-inline">&#x2605;&#x2605;&#x2605;&#x2605;</span>?</h2>
+			<p>Como consumidor, puedes hacer todo lo que haces en el nivel <span class="stars-inline">&#x2605;&#x2605;&#x2605;</span> y adem&aacute;s:</p>
+			<ul class="check">
+				<li>&#10004; Puedes enlazarlos desde cualquier otro sitio (Web o local).</li>
+				<li>&#10004; Puedes marcarlos como favoritos.</li>
+				<li>&#10004; Puedes reutilizar partes de los datos.</li>
+				<li>&#10004; Podr&iacute;as reutilizar herramientas y librer&iacute;as disponibles, incluso si estas solo entienden parte de los patrones que utiliz&oacute; quien los public&oacute;.</li>
+				<li>&#9888; Entender la estructura de un gr&aacute;fico de datos RDF puede requerir m&aacute;s esfuerzo que el necesario para entender datos tabulares (Excel/CSV) o en estructura de &aacute;rbol (XML/JSON).</li>
+				<li>&#10004; Puedes combinar sin problemas los datos con otros. Las URI son un esquema global por lo que si dos cosas tienen la misma URI entonces as&iacute; fue intencionado, y de ser as&iacute; ¡esto est&aacute; en camino de alcanzar el nivel de 5 estrellas de datos!</li>
+
+			</ul>
+			<p>Como editor ...</p>
+			<ul class="check">
+				<li>&#10004; Tienes control granular sobre los datos y puedes optimizar su acceso (balanceo de carga, cacheo, etc.)</li>
+				<li>&#10004; Otros editores de datos pueden ahora enlazarse a tus datos, ¡promovi&eacute;ndolos a 5 estrellas!</li>
+				<li>&#9888; Usualmente inviertes alg&uacute;n tiempo dividiendo los datos para analizarlos.</li>
+				<li>&#9888; Tendr&aacute;s que asignar URIs a los datos y pensar en c&oacute;mo representarlos.</li>
+				<li>&#9888; Necesitas encontrar patrones existentes para reutilizar o crear tus propios patrones.</li>
+			</ul>
+		</div>
+		<div class="rightcol">
+			<div class="squo">&ldquo;</div>
+			<p>
+				¡Grandioso! Ahora los datos <strong>est&aacute;n integrados</strong> a la Web. Los datos (m&aacute;s importantes) tienen una URI y pueden ser compartidos en la Web. Una forma de representar los datos es utilizar RDF, sin embargo otros formatos como Atom pueden ser convertidos/mapeados, si se requiere.</p>
+			<div class="equo">&rdquo;</div>
+		</div>
+		<div class="sidecol"></div>
+	</div>
+
+	<div class="addendum" id="addendum5">
+		<div class="leftcol">
+			<h2>¿Cu&aacute;les son los costos y beneficios de los datos publicados en el nivel <span class="stars-inline">&#x2605;&#x2605;&#x2605;&#x2605;&#x2605;</span>?</h2>
+			<p>Como consumidor, puedes hacer todo lo que haces en el nivel <span class="stars-inline">&#x2605;&#x2605;&#x2605;&#x2605;</span> y adem&aacute;s:</p>
+			<ul class="check">
+				<li>&#10004; Puedes descubrir m&aacute;s datos (relacionados) mientras consumes los datos.</li>
+				<li>&#10004; Puedes aprender directamente acerca del esquema de datos.</li>
+				<li>&#9888; Ahora tienes que manejar enlaces rotos de datos, como los errores 404 en las p&aacute;ginas web.</li>
+				<li>&#9888; Presentar los datos desde un enlace arbitrario como hecho es tan riesgoso como dejar que cualquier persona incluya contenido de cualquier sitio web en tus p&aacute;ginas. Precauci&oacute;n: todav&iacute;a se necesita la confianza y el criterio com&uacute;n.</li>
+			</ul>
+			<p>Como editor ...</p>
+			<ul class="check">
+				<li>&#10004; Puedes hacer que tus datos sean descubiertos.</li>
+				<li>&#10004; Puedes incrementar el valor de tus datos.</li>
+				<li>&#10004; Puedes ganar los mismos beneficios de los enlaces como los consumidores.</li>
+				<li>&#9888; Necesitar&aacute;s invertir recursos para enlazar tus datos a otros en la Web.</li>
+				<li>&#9888; Podr&iacute;as tener que reparar enlaces rotos o incorrectos.</li>
+			</ul>
+		</div>
+		<div class="rightcol">
+			<div class="squo">&ldquo;</div>
+			<p>
+				¡Brillante! Ahora son datos <strong>integrados</strong> en la Web y <strong>enlazados</strong> a otros datos. Tanto el consumidor como el editor se benefician del <a href="http://en.wikipedia.org/wiki/Network_effect" title="Network effect - Wikipedia, the free encyclopedia">efecto de red</a>.
+			</p>
+			<div class="equo">&rdquo;</div>
+		</div>
+		<div class="sidecol"></div>
+	</div>
+
+	<div class="sep"></div>
+
+	<h2 id="ver-tambien">Ver tambi&eacute;n</h2>
+	<ul>
+		<li>
+			<a href="http://inkdroid.org/ehs">Ed Summers</a> cre&oacute; una <a href="https://translate.google.com/translate?sl=en&tl=es&js=y&prev=_t&hl=es-419&ie=UTF-8&u=http%3A%2F%2Finkdroid.org%2Fjournal%2F2010%2F06%2F04%2Fthe-5-stars-of-open-linked-data%2F&edit-text=&act=url" title="Las 5 estrellas de datos abiertos enlazados">bonita visualizaci&oacute;n</a> del esquema de 5 estrellas que mostramos aqu&iacute;.
+		</li>
+		<li>Si tienes Datos Abiertos, podr&iacute;a interesarte usar las <a href="https://translate.google.com/translate?sl=en&tl=es&js=y&prev=_t&hl=es-419&ie=UTF-8&u=http%3A%2F%2Flab.linkeddata.deri.ie%2F2010%2Flod-badges%2F&edit-text=&act=url">medallas de estrellas</a> para destacar el nivel de compatibilidad.</li>
+		<li><a href="http://jayg.org/">James G. Kim</a> aport&oacute; la <a href="http://5stardata.info/kr/" title="별점 5 오픈 데이터">traducci&oacute;n a coreano</a> de este sitio.</li>
+		<li><a href="http://fundapi.org/">Eduardo B&eacute;jar</a> aport&oacute; la <a href="http://5stardata.info/es/" title="별점 5 오픈 데이터">traducci&oacute;n a espa&ntilde;ol</a> de este sitio.</li>
+        <li>Christopher Gutteridge tiene un curso sobre <a href='http://openorg.ecs.soton.ac.uk/wiki/Linked_Data_Basics_for_Techies'>Datos Enlazados para programadores</a>.</li>
+        <li>El <a href='http://theodi.org'>Open Data Institute</a> te ayuda a certificar tus datos con el <a href='https://certificates.theodi.org'>certificado de datos abiertos</a>.</li>
+	</ul>
+
+	<div id="ack">
+		<p>
+			Gracias a <a href="http://twitter.com/andyseaborne">Andy Seaborne</a> por destacar el bug CSV, a <a href="http://twitter.com/kerfors">Kerstin Forsberg</a> por sugerir destacar los datos en los ejemplos de 4/5 estrellas, as&iacute; como tambi&eacute;n a <a href="http://twitter.com/vassilios">Vassilios Peristeras</a> por proponer la explicaci&oacute;n no solo de 'qu&eacute;' sino de 'por qu&eacute;'. Gracias tambi&eacute;n a <a href="https://twitter.com/egonwillighagen">Egon Willighagen</a> por proveer m&aacute;s detalles acerca de los beneficios de los datos en nivel de una estrella.  Contribuciones adicionales de <a href='http://id.ecs.soton.ac.uk/person/1248'>Christopher Gutteridge</a>.
+		Este sitio es posible gracias a EC FP7 Support Action LOD-Around-The-Clock (<a href="http://latc-project.eu/">LATC</a>).
+		</p>
+	</div>
+	<div id="footer">
+		<span>
+			&uacute;ltima actualizaci&oacute;n: <span property="dcterms:date" datatype="xsd:date">2014-08-24</span> por <a rel="dcterms:creator" href="http://fundapi.org">Eduardo B&eacute;jar</a> |
+		</span>
+		<span>
+			C&oacute;digo disponible en <a href="https://github.com/mhausenblas/5stardata.info">GitHub</a>
+		</span>
+	</div>
+</body>
+</html>
+
+
+
