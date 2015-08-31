@@ -8,11 +8,14 @@ languages:
     - en
     - English
   -
-    - ko
-    - 한국어
+    - es
+    - Español
   -
     - ja
     - 日本語
+  -
+    - ko
+    - 한국어
 
 # Plug-ins
 gems:

@@ -1,3 +1,8 @@
+---
+redirect_from: /es/examples/gtd-4.html
+lang: es
+---
+
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN" "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml"
@@ -8,9 +13,9 @@
   xmlns:meteo="http://purl.org/ns/meteo#">
 <head>
 	<title>Pron&oacute;stico de Temperatura para Galway, Irlanda</title>
-	<link type="text/css" href="style.css" rel="stylesheet" />
-	<script type="text/javascript" src="jquery-1.4.2.min.js"></script>
-	<script type="text/javascript" src="data-highlight.js"></script>
+  <link type="text/css" href="{{ "/css/style.css" | prepend: site.baseurl }}" rel="stylesheet" />
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+  <script type="text/javascript" src="{{ "/scripts/data-highlight.js" | prepend: site.baseurl }}"></script>
 </head>
 <body>
 <div>
@@ -18,7 +23,7 @@
 <div id="hint">
 	<p>
 		Para ver los datos incrustados en formato RDFa, coloca el cursor sobre las &aacute;reas con l&iacute;nea roja punteada.
-		Puedes tambi&eacute;n <a href="http://inspector.sindice.com/inspect?url=http://5stardata.info/es/gtd-5.html">ver los datos externamente</a> con Web Data Inspector, con <a href="http://graphite.ecs.soton.ac.uk/browser/?uri=http%3A%2F%2F5stardata.info%2Fes%2Fgtd-5.html">Graphite Browser</a> u otras herramientas.
+		Puedes tambi&eacute;n <a href="http://graphite.ecs.soton.ac.uk/browser/?uri={{ page.url | prepend: site.baseurl | prepend: site.url }}">ver los datos externamente</a> con Graphite Browser u otras herramientas.
 	</p>
 		<p>
 			En este ejemplo de 5 estrellas, usamos el vocabulario <a href="http://purl.org/ns/meteo#">Meteo</a> para representar el pron&oacute;stico de temperatura.
@@ -82,9 +87,15 @@
 	
 
 <div id="footer">
+  <span>
+    Created: <span property="dcterms:created" datatype="xsd:date">2012-01-22</span> by <a rel="dcterms:creator" href="http://sw-app.org/mic.xhtml#i">Michael</a> |
+  </span>
 	<span>
-		&Uacute;ltima actualizaci&oacute;n: <span property="dcterms:date" datatype="xsd:date">2014-08-24</span> por <a rel="dcterms:creator" href="http://fundapi.org">Eduardo B&eacute;jar</a> |
+		Translated: 2014-08-24 por <a rel="dcterms:contributor" href="http://fundapi.org/">Eduardo B&eacute;jar</a> |
 	</span>
+  <span>
+    &uacute;ltima actualizaci&oacute;n: <span property="dcterms:modified" datatype="xsd:date">2015-08-31</span> by <a href="http://jayg.me/" rel="dcterms:contributor">James</a> |
+  </span>
 	<span>
 		C&oacute;digo disponible en <a href="https://github.com/mhausenblas/5stardata.info">GitHub</a>
 	</span>
