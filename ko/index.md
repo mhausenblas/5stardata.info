@@ -9,4 +9,5 @@ nav:
   by-example: 예제로 보기
   costs-benefits: 비용과 효과
   see-also: 더 보기
+  languages: 언어
 ---
