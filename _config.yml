@@ -19,6 +19,9 @@ languages:
   -
     - ko
     - 한국어
+  -
+    - pt-BR
+    - Português Brasileiro
 
 # Plug-ins
 gems:
