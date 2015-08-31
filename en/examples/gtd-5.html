@@ -1,3 +1,8 @@
+---
+redirect_from: /en/examples/gtd-5.html
+lang: en
+---
+
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN" "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml"
@@ -8,9 +13,9 @@
   xmlns:meteo="http://purl.org/ns/meteo#">
 <head>
 	<title>Temperature forecast for Galway, Ireland</title>
-	<link type="text/css" href="style.css" rel="stylesheet" />
-	<script type="text/javascript" src="jquery-1.4.2.min.js"></script>
-	<script type="text/javascript" src="data-highlight.js"></script>
+  <link type="text/css" href="{{ "/css/style.css" | prepend: site.baseurl }}" rel="stylesheet" />
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+  <script type="text/javascript" src="{{ "/scripts/data-highlight.js" | prepend: site.baseurl }}"></script>
 </head>
 <body>
 <div>
@@ -18,7 +23,7 @@
 	<div id="hint">
 		<p>
 			To view the embedded data encoded in <a href="http://rdfa.info/wiki/RDFa_Wiki">RDFa</a>, hover over the red-dotted areas.
-			You can also <a href="http://inspector.sindice.com/inspect?url=http://5stardata.info/gtd-5.html">view the data externally</a> in the Web Data Inspector, or <a href="http://graphite.ecs.soton.ac.uk/browser/?uri=http%3A%2F%2F5stardata.info%2Fgtd-5.html">Graphite Browser</a> or other tools.
+			You can also <a href="http://graphite.ecs.soton.ac.uk/browser/?uri={{ page.url | prepend: site.baseurl | prepend: site.url }}">view the data externally</a> in the Graphite Browser, or other tools.
 		</p>
 		<p>
 			In this 5 star example, we used the <a href="http://purl.org/ns/meteo#">Meteo</a> vocabulary to represent the temperature forecasts.
@@ -83,15 +88,17 @@
 </div>
 	
 <pre id="data-out"></pre>
-	
 
 <div id="footer">
-	<span>
-		Last update: <span property="dcterms:date" datatype="xsd:date">2012-01-22</span> by <a rel="dcterms:creator" href="http://sw-app.org/mic.xhtml#i">Michael</a> |
-	</span>
-	<span>
-		Code available via <a href="https://github.com/mhausenblas/5stardata.info">GitHub</a>
-	</span>
+  <span>
+    Created: <span property="dcterms:created" datatype="xsd:date">2012-01-22</span> by <a rel="dcterms:creator" href="http://sw-app.org/mic.xhtml#i">Michael</a> |
+  </span>
+  <span>
+    Last updated: <span property="dcterms:modified" datatype="xsd:date">2015-08-31</span> by <a href="http://jayg.me/" rel="http://purl.org/dc/terms/contributor">James</a> |
+  </span>
+  <span>
+    Code available via <a href="https://github.com/mhausenblas/5stardata.info">GitHub</a>
+  </span>
 </div>
 </body>
 </html>

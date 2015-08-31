@@ -1,0 +1,258 @@
+---
+# This ensures Jekyll reads the file to be transformed into CSS later.
+# Only the main Sass file contains this front matter, not partials.
+---
+@charset "utf-8";
+
+$screen-xs-max: 767px;
+$screen-sm-max: 991px;
+$screen-md-max: 1199px;
+
+$intro-bg: "{{ "/images/intro-bg.jpg" | prepend: site.baseurl }}";
+
+$grayscale-primary: #42DCA3 !default;
+$grayscale-dark: #000000 !default;
+$grayscale-light: #FFFFFF !default;
+
+$grayscale-body-font-family: "Lora","Helvetica Neue",Helvetica,Arial,sans-serif;
+$grayscale-headline-font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;
+
+@import "grayscale";
+
+.by-example-text {
+	text-align: justify;
+
+	ul {
+		padding: 0;
+
+		li {
+			clear:both;
+			list-style: none;
+			padding-top: 0.5em;
+			padding-left: 5px;
+
+			color: gold;
+			text-align: right;
+
+			ul {
+				float: right;
+				padding-left: 5px;
+				width: 75%;
+
+				li {
+					position: relative;
+					clear: none;
+					float: left;
+					padding: 0 5px;
+					width: 66.66666667%;
+
+					color: $grayscale-light;
+					text-align: left;
+
+					&:first-child a {
+						vertical-align: super;
+						padding-left: 2px;
+
+						font-size: 70%;
+						font-weight: bold;
+					}
+
+					&:last-child {
+						width: 33.33333333%;
+					}
+				}
+			}
+		}
+	}
+}
+
+@media(min-width:$screen-xs-max) {
+	.by-example-text ul {
+		li {
+			padding-left: 15px;
+
+			font-size: 20px;
+			ul {
+				padding-left: 15px;
+				width: 83.33333333%;
+
+				li {
+					padding: 0 15px;
+					width: 75%;
+
+					font-size: 16px;
+
+					&:last-child {
+						width: 25%;
+					}
+				}
+			}
+		}
+	}
+}
+
+.costs-benefits-text {
+	text-align: left;
+
+	.addendum {
+		padding-top: 3em;
+
+		h3 {
+			margin-top: 1em;
+			
+			text-transform: none;
+			font-weight: 500;
+		}
+
+		p {
+			margin-bottom: 10px;
+
+			&:last-child {
+				padding: 1em;
+
+				color: transparentize($grayscale-light, 0.3);
+				background-color: transparentize($grayscale-light, 0.9);
+				border-radius: 0.8em;
+
+				font-size: 16px;
+
+				&::first-letter {
+					float: left;
+					padding: 0.15em 0.1em 0 0;
+					font-size: 3em;
+					line-height: 0.8em;
+				}
+			}
+		}
+
+		ul {
+			padding-left: 1em;
+			margin-bottom: 20px;
+
+			li {
+				list-style: none;
+				margin-left: 1.2em;
+
+				&::first-letter {
+					margin-left: -1.2em;
+					margin-right: 0.2em;
+				}
+			}
+		}
+	}
+}
+
+@media(min-width:$screen-sm-max) {
+	.costs-benefits-text {
+		.addendum {
+			position: relative;
+			margin-bottom: 2em;
+			padding-right: 32%;
+
+			p {
+				margin-bottom: 15px;
+
+				&:last-child {
+					position: absolute;
+					top: 3em;
+					right: 0;
+					bottom: 0;
+					width: 30%;
+					margin: 0;
+
+					background-color: transparent;
+					border-radius: 0;
+					border-left: 1px dotted transparentize($grayscale-light, 0.7);
+
+					font-size: 18px;
+				}
+			}
+		}
+  }
+}
+
+@media(min-width:$screen-xs-max) {
+	.costs-benefits-text {
+		.addendum {
+			ul {
+				li {
+					margin-left: 1.5em;
+
+					&::first-letter {
+						margin-left: -1.5em;
+						margin-right: 0.5em;
+					}
+				}
+			}
+		}
+  }
+}
+
+.see-also-text {
+	text-align: left;
+
+	ul {
+		padding-left: 15px;
+	}
+}
+
+.acknowledgments-text {
+	color: transparentize($grayscale-light, 0.5);
+
+	text-align: justify;
+
+	p {
+		font-size: 90%;
+	}
+}
+
+.stars-inline {
+	color: gold;
+	margin-right: .2em;
+}
+
+#show-data {
+	margin: 2em 0;
+}
+
+#hint {
+	display: none;
+	margin-bottom: 1em;
+
+	p {
+		margin: 0;
+		padding: 5px;
+
+		color: transparentize($grayscale-light, 0.3);
+
+		font-size: 80%;
+		font-style: italic;
+	}
+}
+
+#data {
+	table td {
+		padding: 1em;
+	}
+}
+
+.highlight {
+	border: 1px dotted red;
+	cursor: pointer;
+}
+
+#data-out {
+	display: none;
+	border: 1px solid transparentize($grayscale-light, 0.7);
+	color: $grayscale-light;
+	background: transparentize($grayscale-light, 0.7);
+	font-size: 90%;
+	margin: 10px;
+	padding: 5px;
+}
+
+#footer {
+	margin-top: 1em;
+	font-size: 60%;
+	border-top: 1px solid transparentize($grayscale-light, 0.7);
+}

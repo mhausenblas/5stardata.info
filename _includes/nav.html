@@ -1,0 +1,41 @@
+  <!-- Navigation -->
+  <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+        <i class="fa fa-bars"></i>
+        </button>
+        <a class="navbar-brand" href="#page-top">{{ page.nav['page-top'] }}</a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+        <ul class="nav navbar-nav">
+          <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+          <li class="hidden">
+            <a href="#page-top"></a>
+          </li>
+          <li>
+            <a href="#by-example">{{ page.nav['by-example'] }}</a>
+          </li>
+          <li>
+            <a href="#costs-benefits">{{ page.nav['costs-benefits'] }}</a>
+          </li>
+          <li>
+            <a href="#see-also">{{ page.nav['see-also'] }}</a>
+          </li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-globe"></i> <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              {% assign _url = page.url | prepend: site.baseurl %}
+              {% for language in site.languages %}
+              {% assign old_lang_bit = page.lang | prepend: '/' | append: '/' %}
+              {% assign new_lang_bit = language[0] | prepend: '/' | append: '/' %}
+              <li><a {% if language[0] == page.lang %}class="active"{% endif %} href="{{ _url | replace: old_lang_bit, new_lang_bit }}">{{ language[1] }}</a></li>
+              {% endfor %}
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>

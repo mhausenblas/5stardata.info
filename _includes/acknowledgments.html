@@ -1,0 +1,11 @@
+  <!-- Acknowledgements Section -->
+  <section id="acknowledgments" class="container content-section">
+    <div class="row">
+      <div class="col-lg-10 col-lg-offset-1">
+        <div class="acknowledgments-text">
+          {% capture text %}{% include_relative _includes/acknowledgments.md %}{% endcapture %}
+          {{ text | markdownify }}
+        </div>
+      </div>
+    </div>
+</section>
