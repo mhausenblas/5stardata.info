@@ -1,3 +1,4 @@
 - [Ed Summers](http://inkdroid.org/ehs) は我々がここで構築している5つ星スキームの [格好いい演出](http://inkdroid.org/journal/2010/06/04/the-5-stars-of-open-linked-data/ "the 5 stars of open linked data")を提供しています．
 - もしあなたがオープンデータを持っているならば，適合レベルを示すのに [星バッジ](http://lab.linkeddata.deri.ie/2010/lod-badges/)を使いたいかもしれません．
 - Christopher Gutteridgeによる [プログラマのためのLinked Data短期集中コース](http://openorg.ecs.soton.ac.uk/wiki/Linked_Data_Basics_for_Techies)があります．
+- The [Open Data Institute](http://theodi.org/) helps you certify your open data with the [open data certificate](https://certificates.theodi.org/).
