@@ -22,6 +22,9 @@ languages:
   -
     - pt-BR
     - Português Brasileiro
+  -
+    - zh-TW
+    - 繁體中文
 
 # Plug-ins
 gems:

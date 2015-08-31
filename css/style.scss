@@ -49,7 +49,7 @@ $grayscale-headline-font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,s
 					color: $grayscale-light;
 					text-align: left;
 
-					&:first-child a {
+					&:first-child a:last-child {
 						vertical-align: super;
 						padding-left: 2px;
 
