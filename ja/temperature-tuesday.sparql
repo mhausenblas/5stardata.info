@@ -2,7 +2,7 @@ PREFIX xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt;
 PREFIX meteo: &lt;http://purl.org/ns/meteo#&gt;
 PREFIX : &lt;http://5stardata.info/ja/gtd-5.html#&gt;
 
-SELECT ?tempC from &lt;http://any23.org/rdfxml/http://5stardata.info/ja/gtd-5.html&gt;
+SELECT ?tempC from &lt;http://any23.org/rdfxml/http://5stardata.info/ja/examples/gtd-5/&gt;
 WHERE { 
 
  :Tokyo meteo:forecast ?forecast .

@@ -1,3 +1,8 @@
+---
+redirect_from: /ja/examples/std-4.html
+lang: ja
+---
+
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN" "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml"
@@ -8,9 +13,9 @@
   xmlns:meteo="http://purl.org/ns/meteo#">
 <head>
 	<title>東京 (日本) の気温予報</title>
-	<link type="text/css" href="../style.css" rel="stylesheet" />
-	<script type="text/javascript" src="../jquery-1.4.2.min.js"></script>
-	<script type="text/javascript" src="../data-highlight.js"></script>
+	<link type="text/css" href="{{ "/css/style.css" | prepend: site.baseurl }}" rel="stylesheet" />
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+  <script type="text/javascript" src="{{ "/scripts/data-highlight.js" | prepend: site.baseurl }}"></script>
 </head>
 <body>
 	
@@ -19,7 +24,7 @@
 	<div id="hint">
 		<p>
 			<a href="http://rdfa.info/wiki/RDFa_Wiki">RDFa</a>で埋め込まれたデータを見るためには，赤いドット領域にマウスを移動してください．
-			<a href="http://inspector.sindice.com/inspect?url=http://5stardata.info/ja/gtd-5.html">Web data inspector</a>や<a href="http://graphite.ecs.soton.ac.uk/browser/?uri=http%3A%2F%2F5stardata.info%2Fja%2Fgtd-5.html">Graphite Browser</a>や他のツールによって，このWebサイト外でも見ることができます．
+			<a href="http://graphite.ecs.soton.ac.uk/browser/?uri={{ page.url | prepend: site.baseurl | prepend: site.url }}">Graphite Browser</a>や他のツールによって，このWebサイト外でも見ることができます．
 		</p>
 		<p>
 			この5つ星の例では，気温予報を表現するために<a href="http://purl.org/ns/meteo#">Meteo</a> 語彙を使用しています．
@@ -85,9 +90,15 @@
 <pre id="data-out"></pre>
 
 <div id="footer">
+  <span>
+    Created: <span property="dcterms:created" datatype="xsd:date">2012-01-22</span> by <a rel="dcterms:creator" href="http://sw-app.org/mic.xhtml#i">Michael</a> |
+  </span>
 	<span>
-		最終更新日: <span property="dcterms:date" datatype="xsd:date">2013-01-08</span> by <a rel="dcterms:creator" href="http://fumi.me/foaf#me">Fumi</a> |
+		Translated: 2013-01-08 by <a rel="dcterms:contributor" href="http://fumi.me/foaf#me">Fumi</a> |
 	</span>
+  <span>
+    最終更新日: <span property="dcterms:modified" datatype="xsd:date">2015-08-31</span> by <a href="http://jayg.me/" rel="dcterms:contributor">James</a> |
+  </span>
 	<span>
 		コードは <a href="https://github.com/mhausenblas/5stardata.info">GitHub</a> で公開されています．
 	</span>
