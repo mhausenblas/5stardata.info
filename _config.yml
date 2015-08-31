@@ -1,6 +1,6 @@
 # Site settings
-url: http://jgkim.github.io
-baseurl: /5stardata.info
+url: http://5stardata.info
+baseurl: ""
 
 # Translated Languages
 languages:
