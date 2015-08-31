@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang }}">
+{% include head.html %}
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+	{% include nav.html %}
+	{% include intro.html %}
+	{% include by-example.html %}
+	{% include costs-benefits.html %}
+	{% include see-also.html %}
+	{% include acknowledgments.html %}
+	{% include footer.html %}
+
+  <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+
+  <!-- Custom Theme JavaScript -->
+  <script src="{{ "/scripts/grayscale.js" | prepend: site.baseurl }}"></script>
+</body>
+</html>

@@ -1,3 +1,8 @@
+---
+redirect_from: /ko/examples/std-5.html
+lang: ko
+---
+
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN" "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml"
@@ -8,35 +13,38 @@
   xmlns:meteo="http://purl.org/ns/meteo#">
 <head>
 	<title>서울 기온 예보</title>
-	<link type="text/css" href="../style.css" rel="stylesheet" />
-	<script type="text/javascript" src="../jquery-1.4.2.min.js"></script>
-	<script type="text/javascript" src="../data-highlight.js"></script>
+	<link type="text/css" href="{{ "/css/style.css" | prepend: site.baseurl }}" rel="stylesheet" />
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+  <script type="text/javascript" src="{{ "/scripts/data-highlight.js" | prepend: site.baseurl }}"></script>
 </head>
 <body>
-
 <div>
 	<button id="show-data">임베디드 데이터 보기</button>
 	<div id="hint">
 		<p>
-		  RDFa로 인코딩된 임베디드 데이터를 보기 위해서는 붉은 점선으로 표시된 영역 위로 마우스를 가져가세요.
-		  또한, 웹 데이터 인스펙터나 <a href="http://graphite.ecs.soton.ac.uk/browser/?uri=http%3A%2F%2F5stardata.info%2Fkr%2Fstd-4.html">그라파이트 브라우저</a> 등 다른 도구를 이용해 <a href="http://inspector.sindice.com/inspect?url=http://5stardata.info/ko/std-4.html">데이터를 외부에서 볼 수도 있습니다</a>.
+		  <a href="http://rdfa.info/wiki/RDFa_Wiki">RDFa</a>로 인코딩된 임베디드 데이터를 보기 위해서는 붉은 점선으로 표시된 영역 위로 마우스를 가져가세요.
+		  또한, 웹 데이터 인스펙터나 다른 도구를 이용해 <a href="http://graphite.ecs.soton.ac.uk/browser/?uri={{ page.url | prepend: site.baseurl | prepend: site.url }}">데이터를 외부에서 볼 수도 있습니다</a>.
 		</p>
 		<p>
-		  별점 4에 대한 이 예제에서는 기온 예보를 표현하기 위해 <a href="http://purl.org/ns/meteo#">Meteo</a> 어휘를 사용합니다.
+		  별점 5에 대한 이 예제에서는 기온 예보를 표현하기 위해 <a href="http://purl.org/ns/meteo#">Meteo</a> 어휘를 사용합니다.
 		  각각의 예보는 URI를 갖으며(예를 들어, '<a href="#forecast20120207">2012년 2월 7일 화요일 예보</a>'), 이 URI는 다른 상황에서도 사용될 수 있습니다.
-		</p>
-		<p>
-			소스코드를 본다면 데이터가 계층적인 구조로 보일 수 있지만, 이는 착각입니다. 실제로는 무언가에 대한 개별 사실의 집합을 표현할 뿐입니다; "#Seoul"은 "장소(place)"이다, "#Seoul"은 "#forecast20120205"라는 기온 예보(forecast)를 갖는다, "#forecast20120205"는 "2012-02-05T00:00:00Z"의 예측(predicted)한다 등. 이들의 순서는 의미를 바꾸지 않으며 변경될 수 있습니다.
+		  또한, 장소(<code>#Seoul</code>)를 DBpedia의 <a href="http://dbpedia.org/resource/Seoul">Seoul</a> 항목에 링크하여 모호성을 제거하였고, 종류에 따은 DBpedia의 링크(<a href="http://dbpedia.org/resource/Temperature">온도</a>, <a href="http://dbpedia.org/resource/Celsius">섭씨</a>)를 통해 <code>#temp</code>의 해석에 대한 문맥과 배경을 제공하였습니다.
 		</p>
 	</div>
 </div>
 <h1 property="dcterms:title">서울 기온 예보</h1>
 
 <div id="data" about="#Seoul" typeof="meteo:Place">
+<span rel="owl:sameAs" resource="http://dbpedia.org/resource/Seoul"></span>
 <table border="1px">
 	<tr>
 		<th>날짜</th>
-		<th>최저 기온(&deg;C)</th>
+		<th>
+			<div about="#temp">
+				최저
+				<a rel="rdfs:seeAlso" href="http://ko.wikipedia.org/wiki/기온" resource="http://dbpedia.org/resource/Temperature">기온</a>(<span rel="owl:sameAs" resource="http://dbpedia.org/resource/Celsius">&deg;C</span>)
+			</div>
+		</th>
 	</tr>
 	<tr rel="meteo:forecast" resource="#forecast20120205">
 		<td>
@@ -78,6 +86,7 @@
 </div>
 
 <pre id="data-out"></pre>
+
 
 <div id="footer">
 	<span>

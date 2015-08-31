@@ -1,0 +1,23 @@
+# Site settings
+url: http://5stardata.info
+baseurl: ""
+
+# Translated Languages
+languages:
+  -
+    - en
+    - English
+  -
+    - ko
+    - 한국어
+
+# Plug-ins
+gems:
+  - jekyll-redirect-from
+
+# Conversion
+markdown: kramdown
+
+# Outputting
+permalink: pretty
+timezone: GMT

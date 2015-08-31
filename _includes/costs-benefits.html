@@ -1,0 +1,16 @@
+  <!-- By Costs & Benefits Section -->
+  <section id="costs-benefits" class="container content-section text-center">
+    <div class="row">
+      <div class="col-lg-10 col-lg-offset-1">
+        <h2>{{ page.nav['costs-benefits'] }} &hellip;</h2>
+        <div class="costs-benefits-text">
+          {% for i in (1..5) %}
+          <div class="addendum" id="addendum{{ i }}">
+            {% capture text %}{% include_relative _includes/costs-benefits-{{ i }}-star.md %}{% endcapture %}
+            {{ text | markdownify }}
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+</section>

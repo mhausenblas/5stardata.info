@@ -1,0 +1,19 @@
+  <!-- Intro Header -->
+  <header class="intro">
+    <div class="intro-body">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-md-offset-2">
+            <h1 class="brand-heading" property="http://purl.org/dc/terms/title">{{ page.nav['page-top'] }}</h1>
+            <div class="intro-text">
+              {% capture text %}{% include_relative _includes/intro.md %}{% endcapture %}
+              {{ text | markdownify }}
+            </div>
+            <a href="#by-example" class="btn btn-circle">
+              <i class="fa fa-angle-double-down animated"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>

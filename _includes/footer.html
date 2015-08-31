@@ -1,0 +1,7 @@
+<!-- Footer -->
+<footer>
+    <div class="container text-center">
+    	{% capture text %}{% include_relative _includes/footer.md %}{% endcapture %}
+      {{ text | markdownify }}
+    </div>
+</footer>
