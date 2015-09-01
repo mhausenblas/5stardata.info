@@ -20,4 +20,4 @@ Translating the site is straightforward. If you can't see a version in your lang
 - **gh-pages**: live site
 - **[master](https://github.com/mhausenblas/5stardata.info/tree/master)**: original version, for archiving (not used anymore)
 
-All here in the Public Domain (unless otherwise noted), as usual. ;)
+All stuff here in the Public Domain (unless otherwise noted), as usual. ;)
