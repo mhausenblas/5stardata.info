@@ -1,6 +1,6 @@
 # 5 &#x2605; OPEN DATA
 
-This is the source code repository for the [5-star Open Data] advocacy site. The site is a [Jekyll](http://jekyllrb.com/)-based site, with pages written in HTML and [Markdown](http://daringfireball.net/projects/markdown/syntax) (specifically [Kramdown](http://kramdown.gettalong.org/syntax.html)), with Markdown being used where possible for ease of translating and editing.
+This is the source code repository for the [5-star Open Data](http://5stardata.info/) advocacy site. The site is a [Jekyll](http://jekyllrb.com/)-based site, with pages written in HTML and [Markdown](http://daringfireball.net/projects/markdown/syntax) (specifically [Kramdown](http://kramdown.gettalong.org/syntax.html)), with Markdown being used where possible for ease of translating and editing.
 
 ## Contributing to the site
 
