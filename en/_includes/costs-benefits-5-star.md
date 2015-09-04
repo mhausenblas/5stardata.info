@@ -15,4 +15,4 @@ As a publisher &hellip;
 - &#9888; You'll need to invest resources to link your data to other data on the Web.
 - &#9888; You may need to repair broken or incorrect links.
 
-"Brilliant! Now it's data, **in** the Web **linked to** other data. Both the consumer and the publisher benefit from the [network effect](http://en.wikipedia.org/wiki/Network_effect "Network effect - Wikipedia, the free encyclopedia")."
+"Brilliant! Now it's data, **in** the Web **linked to** other data. Both the consumer and the publisher benefit from the [network effect](https://en.wikipedia.org/wiki/Network_effect "Network effect - Wikipedia, the free encyclopedia")."

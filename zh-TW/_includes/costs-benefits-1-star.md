@@ -14,4 +14,4 @@
 - &#10004; 這是相當簡單的資料發佈方式。
 - &#10004; 你不用重覆地解釋，別人可以使用你的資料這件事。
 
-"資料在網路上能用開放的授權取得，真是太棒了! (如 [PDDL](http://www.opendatacommons.org/licenses/pddl/ "Open Data Commons &raquo; Public Domain Dedication and License (PDDL)"), [ODC-by](http://www.opendatacommons.org/licenses/by/ "Open Data Commons &raquo; Open Data Commons Attribution License") or [CC0](http://creativecommons.org/publicdomain/zero/1.0/ "Creative Commons &mdash;CC0 1.0 Universal"))，然而，資料被鎖在文件中， 除了用一些客製化的耙梳程式，不然很難把資料帶出文件外。"
+"資料在網路上能用開放的授權取得，真是太棒了! (如 [PDDL](http://opendatacommons.org/licenses/pddl/ "Open Data Commons &raquo; Public Domain Dedication and License (PDDL)"), [ODC-by](http://opendatacommons.org/licenses/by/ "Open Data Commons &raquo; Open Data Commons Attribution License") or [CC0](http://creativecommons.org/publicdomain/zero/1.0/ "Creative Commons &mdash;CC0 1.0 Universal"))，然而，資料被鎖在文件中， 除了用一些客製化的耙梳程式，不然很難把資料帶出文件外。"

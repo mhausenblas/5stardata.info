@@ -1,4 +1,4 @@
-- [Ed Summers](http://inkdroid.org/ehs) has provided a [nice rendering](http://inkdroid.org/journal/2010/06/04/the-5-stars-of-open-linked-data/ "the 5 stars of open linked data") of the 5-star scheme that we're building upon here.
+- [Ed Summers](http://inkdroid.org/ehs/) has provided a [nice rendering](http://inkdroid.org/2010/06/04/the-5-stars-of-open-linked-data/ "the 5 stars of open linked data") of the 5-star scheme that we're building upon here.
 - If you have Open Data, you might want to use the [star badges](http://lab.linkeddata.deri.ie/2010/lod-badges/) to flag your compliance level.
 - Christopher Gutteridge has a [Linked Data crash course for programmers](http://openorg.ecs.soton.ac.uk/wiki/Linked_Data_Basics_for_Techies).
 - The [Open Data Institute](http://theodi.org/) helps you certify your open data with the [open data certificate](https://certificates.theodi.org/).

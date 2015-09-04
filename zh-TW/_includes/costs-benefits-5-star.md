@@ -15,4 +15,4 @@
 - &#9888; 你將需要投入資源去連結你的資料到在網路上的其它資料。
 - &#9888; 你或許需要修復斷的或不正確的連結。
 
-"好的不得了！如今**在**網路中的資料**連結到**其它資料，資料取用者和資料發佈者都由 [網絡效應](http://en.wikipedia.org/wiki/Network_effect "Network effect - Wikipedia, the free encyclopedia")獲得效益。"
+"好的不得了！如今**在**網路中的資料**連結到**其它資料，資料取用者和資料發佈者都由 [網絡效應](https://en.wikipedia.org/wiki/Network_effect "Network effect - Wikipedia, the free encyclopedia")獲得效益。"

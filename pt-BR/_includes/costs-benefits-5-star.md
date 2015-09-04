@@ -15,4 +15,4 @@ Como um publicador &hellip;
 - &#9888; Você vai precisar investir recursos para ligar seus dados a dados de outros na Web.
 - &#9888; Você vai precisar reparar links quebrados ou incorretos.
 
-"Brilhante! Agora são dados, **na** Web **ligado a** outros dados. Ambos: consumidor e publicador beneficiam-se pelo [efeito rede](http://en.wikipedia.org/wiki/Network_effect "Network effect - Wikipedia, the free encyclopedia")."
+"Brilhante! Agora são dados, **na** Web **ligado a** outros dados. Ambos: consumidor e publicador beneficiam-se pelo [efeito rede](https://en.wikipedia.org/wiki/Network_effect "Network effect - Wikipedia, the free encyclopedia")."

@@ -14,4 +14,4 @@
 - &#10004; 簡単に公開できます．
 - &#10004; あなたのデータが使用可能であるということを消費者に繰り返し説明する必要がありません．
 
-&ldquo;([PDDL](http://www.opendatacommons.org/licenses/pddl/ "Open Data Commons &raquo; Public Domain Dedication and License (PDDL)")，[ODC-by](http://www.opendatacommons.org/licenses/by/ "Open Data Commons &raquo; Open Data Commons Attribution License")，[CC0](http://creativecommons.org/publicdomain/zero/1.0/ "Creative Commons &mdash;CC0 1.0 Universal") のような) オープンライセンスのもとでWeb上にデータを公開するのは素晴らしいことです．しかしながら，そのデータは文書内に閉じ込められています．お手製のスクレイパーを書かないと，文書からデータを取り出すのは難しいです．&rdquo;
+&ldquo;([PDDL](http://opendatacommons.org/licenses/pddl/ "Open Data Commons &raquo; Public Domain Dedication and License (PDDL)")，[ODC-by](http://opendatacommons.org/licenses/by/ "Open Data Commons &raquo; Open Data Commons Attribution License")，[CC0](http://creativecommons.org/publicdomain/zero/1.0/ "Creative Commons &mdash;CC0 1.0 Universal") のような) オープンライセンスのもとでWeb上にデータを公開するのは素晴らしいことです．しかしながら，そのデータは文書内に閉じ込められています．お手製のスクレイパーを書かないと，文書からデータを取り出すのは難しいです．&rdquo;

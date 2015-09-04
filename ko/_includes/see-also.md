@@ -1,4 +1,4 @@
-- [에드 서머스](http://inkdroid.org/ehs)는 이 사이트의 바탕이 된 별점 5 계획의 [멋진 표현](http://inkdroid.org/journal/2010/06/04/the-5-stars-of-open-linked-data/ "오픈 링크드 데이터의 다섯 가지 별점")을 제공했다.
+- [에드 서머스](http://inkdroid.org/ehs/)는 이 사이트의 바탕이 된 별점 5 계획의 [멋진 표현](http://inkdroid.org/2010/06/04/the-5-stars-of-open-linked-data/ "오픈 링크드 데이터의 다섯 가지 별점")을 제공했다.
 - 오픈 데이터를 갖고 있다면, 준수 수준을 표시하기 위해 [별점 배지](http://lab.linkeddata.deri.ie/2010/lod-badges/)를 사용할 수 있다.
 - 크리스토퍼 거터리지는 [프로그래머를 위한 링크드 데이터 박살 내기](http://openorg.ecs.soton.ac.uk/wiki/Linked_Data_Basics_for_Techies) 강좌를 제공한다.
 - [오픈 데이터 인스티튜트](http://theodi.org/)는 [오픈 데이터 인증](https://certificates.theodi.org/)을 통해 오픈 데이터를 증명할 수 있도록 돕는다.

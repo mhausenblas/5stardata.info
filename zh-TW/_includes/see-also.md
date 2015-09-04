@@ -1,4 +1,4 @@
-- [Ed Summers](http://inkdroid.org/ehs) 提供一個很好的五星架構的[視覺化圖型](http://inkdroid.org/journal/2010/06/04/the-5-stars-of-open-linked-data/ "the 5 stars of open linked data")，我們因而可以依此擴充。
+- [Ed Summers](http://inkdroid.org/ehs/) 提供一個很好的五星架構的[視覺化圖型](http://inkdroid.org/2010/06/04/the-5-stars-of-open-linked-data/ "the 5 stars of open linked data")，我們因而可以依此擴充。
 - 如果你手上有開放資料，你或許想要使用這個 [星星徽章](http://lab.linkeddata.deri.ie/2010/lod-badges/)來標示你的資料的開放等級。
 - Christopher Gutteridge 有對於程式設計師的[鏈結資料速成課](http://openorg.ecs.soton.ac.uk/wiki/Linked_Data_Basics_for_Techies)
 - The [Open Data Institute](http://theodi.org/) helps you certify your open data with the [open data certificate](https://certificates.theodi.org/).

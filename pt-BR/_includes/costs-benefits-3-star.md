@@ -9,4 +9,4 @@ Como um publicador &hellip;
 - &#9888; Você deve precisar de conversores ou plugins para exportar os dados do formato proprietário.
 - &#10004; Ainda é muito simples de publicar.
 
-"Excelente! Os dados não estão apenas disponíveis ia Web mas agora qualquer um pode utilizar os dados facilmente. Por outro lado, ainda são dados empacotados na Web e não [dados na Web](http://webofdata.wordpress.com/2010/03/01/data-and-the-web-choices/ "Dados e a Web &#8211; um grande número de opções  &laquo;  Web de Dados")."
+"Excelente! Os dados não estão apenas disponíveis ia Web mas agora qualquer um pode utilizar os dados facilmente. Por outro lado, ainda são dados empacotados na Web e não [dados na Web](https://webofdata.wordpress.com/2010/03/01/data-and-the-web-choices/ "Dados e a Web &#8211; um grande número de opções  &laquo;  Web de Dados")."

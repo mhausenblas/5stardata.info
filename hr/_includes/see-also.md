@@ -1,4 +1,4 @@
-- [Ed Summers](http://inkdroid.org/ehs) je dao [lijepu sliku](http://inkdroid.org/journal/2010/06/04/the-5-stars-of-open-linked-data/ "the 5 stars of open linked data") sheme 5 zvijezdica podataka koju smo prikazali ovdje.
+- [Ed Summers](http://inkdroid.org/ehss) je dao [lijepu sliku](http://inkdroid.org/2010/06/04/the-5-stars-of-open-linked-data/ "the 5 stars of open linked data") sheme 5 zvijezdica podataka koju smo prikazali ovdje.
 - Ako imate otvorene podatke, možda biste željeli koristiti [zvjezdice](http://lab.linkeddata.deri.ie/2010/lod-badges/) da označite razinu vaših podataka.
 - Christopher Gutteridge ima [brzi tečaj povezanih podataka za programere](http://openorg.ecs.soton.ac.uk/wiki/Linked_Data_Basics_for_Techies).
 - [Open Data Institute](http://theodi.org/) vam pomaže da ceritificirate vaše otvorene podatke s [certifikatom otvorenih podataka](https://certificates.theodi.org).

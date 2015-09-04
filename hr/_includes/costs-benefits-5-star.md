@@ -15,4 +15,4 @@ Kao nositelj podataka &hellip;
 <li>&#9888; Trebati ćete uložiti u resurse za povezivanje vaših podataka s drugim podacima na interentu.</li>
 <li>&#9888; Trebati ćete popraviti loše ili netočne internetske poveznice.</li>
 
-"Briljantno! To su sada podaci **u** internetu **povezani s** drugim podacima. I korisnici i nositelji podataka imaju koristi iz [mrežnog efekta](http://en.wikipedia.org/wiki/Network_effect "Network effect - Wikipedia, the free encyclopedia")."
+"Briljantno! To su sada podaci **u** internetu **povezani s** drugim podacima. I korisnici i nositelji podataka imaju koristi iz [mrežnog efekta](https://en.wikipedia.org/wiki/Network_effect "Network effect - Wikipedia, the free encyclopedia")."

@@ -9,4 +9,4 @@ As a publisher &hellip;
 - &#9888; You might need converters or plug-ins to export the data from the proprietary format.
 - &#10004; It's still rather simple to publish.
 
-"Excellent! The data is not only available via the Web but now everyone can use the data easily. On the other hand, it's still data on the Web and not [data in the Web](http://webofdata.wordpress.com/2010/03/01/data-and-the-web-choices/ "Data and the Web &#8211; a great many of choices &laquo; Web of Data")."
+"Excellent! The data is not only available via the Web but now everyone can use the data easily. On the other hand, it's still data on the Web and not [data in the Web](https://webofdata.wordpress.com/2010/03/01/data-and-the-web-choices/ "Data and the Web &#8211; a great many of choices &laquo; Web of Data")."

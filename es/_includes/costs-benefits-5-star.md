@@ -15,4 +15,4 @@ Como editor &hellip;
 - &#9888; Necesitar&aacute;s invertir recursos para enlazar tus datos a otros en la Web.
 - &#9888; Podr&iacute;as tener que reparar enlaces rotos o incorrectos.
 
-"¡Brillante! Ahora son datos **integrados** en la Web y **enlazados** a otros datos. Tanto el consumidor como el editor se benefician del [efecto de red](http://en.wikipedia.org/wiki/Network_effect "Network effect - Wikipedia, the free encyclopedia")."
+"¡Brillante! Ahora son datos **integrados** en la Web y **enlazados** a otros datos. Tanto el consumidor como el editor se benefician del [efecto de red](https://en.wikipedia.org/wiki/Network_effect "Network effect - Wikipedia, the free encyclopedia")."

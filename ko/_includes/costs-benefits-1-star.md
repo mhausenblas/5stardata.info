@@ -14,4 +14,4 @@
 - &#10004; 제공하기 쉽다.
 - &#10004; 데이터를 사용해도 된다고 사람들에게 반복해 설명할 필요가 없다.
 
-"오픈 라이선스([PDDL](http://www.opendatacommons.org/licenses/pddl/ "Open Data Commons &raquo; Public Domain Dedication and License (PDDL)"), [ODC-by](http://www.opendatacommons.org/licenses/by/ "Open Data Commons &raquo; Open Data Commons Attribution License"), [CC0](http://creativecommons.org/publicdomain/zero/1.0/ "Creative Commons &mdash;CC0 1.0 Universal") 등)로 공개된 데이터가 웹 상에 존재하는 것은 매우 멋진 일이다. 하지만 데이터는 문서에 갇혀 있고, 맞춤형 스크레이퍼의 작성 없이 문서에서 데이터를 추출하기는 어렵다."
+"오픈 라이선스([PDDL](http://opendatacommons.org/licenses/pddl/ "Open Data Commons &raquo; Public Domain Dedication and License (PDDL)"), [ODC-by](http://opendatacommons.org/licenses/by/ "Open Data Commons &raquo; Open Data Commons Attribution License"), [CC0](http://creativecommons.org/publicdomain/zero/1.0/ "Creative Commons &mdash;CC0 1.0 Universal") 등)로 공개된 데이터가 웹 상에 존재하는 것은 매우 멋진 일이다. 하지만 데이터는 문서에 갇혀 있고, 맞춤형 스크레이퍼의 작성 없이 문서에서 데이터를 추출하기는 어렵다."
