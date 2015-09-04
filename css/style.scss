@@ -188,6 +188,16 @@ $grayscale-headline-font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,s
   }
 }
 
+@media(max-width:$screen-xs-max) {
+	footer p br {
+		display: none;
+	}
+
+	footer p span[property="dcterms:rights"]::before {
+		content: "\007C\00a0";
+	}
+}
+
 .see-also-text {
 	text-align: left;
 
