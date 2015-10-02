@@ -7,7 +7,7 @@ Below, we provide examples for each level of Tim's 5-star Open Data plan. The ex
   - make it available as structured data (e.g., Excel instead of image scan of a table)[2](#addendum2 "view costs and benefits of 2-star data")
   - [example &hellip;](examples/gtd-2.xls "2-star Galway temperature data")
 - &#x2605;&#x2605;&#x2605;
-  - make it available in a non-proprietary open format (e.g., CSV as well as of Excel)[3](#addendum3 "view costs and benefits of 3-star data")
+  - make it available in a non-proprietary open format (e.g., CSV rather than Excel)[3](#addendum3 "view costs and benefits of 3-star data")
   - [example &hellip;](examples/gtd-3.csv "3-star Galway temperature data")
 - &#x2605;&#x2605;&#x2605;&#x2605;
   - use URIs to denote things, so that people can point at your stuff[4](#addendum4 "view costs and benefits of 4-star data")
