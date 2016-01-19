@@ -1,7 +1,7 @@
-Níže uvádíme příklady pro každý stupeň Timova 5-hvězdičkového plánu pro Otevřená data. Data použitá v příkladech jsou '*třídenní předpověď teplot pro Galway v Irsku*':
+Níže uvádíme příklady pro každý stupeň Timova 5-hvězdičkového plánu pro otevřená data. Data použitá v příkladech jsou '*třídenní předpověď teplot pro Galway v Irsku*':
 
 - &#x2605;
-  - zpřístupněte vaše data na Webu (v libovolném formátu) pod otevřenou licencí[1](#addendum1 "zobrazit náklady a přínosy 1-hvězdičkových dat")
+  - zpřístupněte vaše data na webu (v libovolném formátu) pod otevřenou licencí[1](#addendum1 "zobrazit náklady a přínosy 1-hvězdičkových dat")
   - [příklad &hellip;](examples/gtd-1.pdf "1-hvězdičková teplotní data Galway")
 - &#x2605;&#x2605;
   - zpřístupněte je jako strukturovaná (např. Excel místo naskenované tabulky)[2](#addendum2 "zobrazit náklady a přínosy 2-hvězdičkových dat")

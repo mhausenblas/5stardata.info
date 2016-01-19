@@ -1,8 +1,8 @@
-### Jaké jsou náklady &amp; přínosy <span class="stars-inline">&#x2605;&#x2605;&#x2605;&#x2605;</span> Webových dat?
+### Jaké jsou náklady &amp; přínosy <span class="stars-inline">&#x2605;&#x2605;&#x2605;&#x2605;</span> webových dat?
 
-Jako uživatel můžete dělat to, co s <span class="stars-inline">&#x2605;&#x2605;&#x2605;</span> Webovými daty, a navíc:
+Jako uživatel můžete dělat to, co s <span class="stars-inline">&#x2605;&#x2605;&#x2605;</span> webovými daty, a navíc:
 
-- &#10004; Můžete se na ně odkazovat odkudkoliv jinud (na Webu nebo lokálně).
+- &#10004; Můžete se na ně odkazovat odkudkoliv jinud (na webu nebo lokálně).
 - &#10004; Můžete si na ně dávat záložky.
 - &#10004; Můžete přepoužívat části dat.
 - &#10004; Můžete být schopni přepoužívat existující nástroje a knihovny a to i v případě, že rozumí pouze částem formátu použitého poskytovatelem.
@@ -17,4 +17,4 @@ Jako poskytovatel &hellip;
 - &#9888; Budete muset přiřadit URI datovým položkám a přemýšlet o tom, jak data reprezentovat.
 - &#9888; Budete muset buď najít existující vzory k přepoužití a nebo vytvořit vaše vlastní.
 
-"Báječné! Nyní jsou to data **ve** Webu. Datové položky (nejdůležitější z nich) mají URI a mohou být sdíleny na Webu. Přirozeným způsobem reprezentace dat je použití RDF, ale v případě potřeby mohou být konvertovány/mapovány jiné formáty, například Atom."
+"Báječné! Nyní jsou to data **ve** webu. Datové položky (nejdůležitější z nich) mají URI a mohou být sdíleny na webu. Přirozeným způsobem reprezentace dat je použití RDF, ale v případě potřeby mohou být konvertovány/mapovány jiné formáty, například Atom."

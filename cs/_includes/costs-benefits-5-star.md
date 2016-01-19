@@ -1,6 +1,6 @@
-### Jaké jsou náklady &amp; přínosy <span class="stars-inline">&#x2605;&#x2605;&#x2605;&#x2605;#x2605;</span> Webových dat?
+### Jaké jsou náklady &amp; přínosy <span class="stars-inline">&#x2605;&#x2605;&#x2605;&#x2605;&#x2605;</span> webových dat?
 
-Jako uživatel můžete dělat to, co s <span class="stars-inline">&#x2605;&#x2605;&#x2605;&#x2605;</span> Webovými daty, a navíc:
+Jako uživatel můžete dělat to, co s <span class="stars-inline">&#x2605;&#x2605;&#x2605;&#x2605;</span> webovými daty, a navíc:
 
 - &#10004; Při používání dat můžete objevovat další (související) data.
 - &#10004; Můžete přímo zjistit datové schéma.
