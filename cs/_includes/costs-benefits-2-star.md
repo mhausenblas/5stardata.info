@@ -9,4 +9,4 @@ Jako poskytovatel &hellip;
 
 - &#10004; Stále je jednoduché je poskytnout.
 
-"Úžasné! Data jsou přístupná na webu ve strukturované podobě (tzn. strojově čitelné), ale data jsou stále uzavřena v dokumentu. Pro získání dat z dokumentu jste závislí na proprietárním software."
+"Úžasné! Data jsou přístupná na webu ve strukturované podobě (tzn. jsou strojově čitelná), ale jsou stále uzavřena v dokumentu. Pro získání dat z dokumentu jste závislí na proprietárním software."
