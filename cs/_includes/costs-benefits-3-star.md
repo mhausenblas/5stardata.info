@@ -7,6 +7,6 @@ Jako uživatel můžete dělat to, co s <span class="stars-inline">&#x2605;&#x26
 Jako poskytovatel &hellip;
 
 - &#9888; Můžete potřebovat konvertory nebo pluginy pro export dat z proprietárních formátů.
-- &#10004; Stále je spíše jednoduché je poskytnout.
+- &#10004; Stále je celkem jednoduché je poskytnout.
 
 "Výborné! Data jsou nejen přístupná na webu, ale navíc je teď může kdokoliv snadno používat. Na druhou stranu jsou to pořád data na webu, nikoliv [data ve webu](https://webofdata.wordpress.com/2010/03/01/data-and-the-web-choices/ "Data and the Web &#8211; a great many of choices &laquo; Web of Data")."
