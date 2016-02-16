@@ -1,0 +1,112 @@
+---
+redirect_from:
+- /cs/examples/gtd-4.html
+- /cs/gtd-4.html
+lang: cs
+---
+
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN" "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+  xmlns:xsd ="http://www.w3.org/2001/XMLSchema#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:meteo="http://purl.org/ns/meteo#">
+<head>
+  <title>Teplotní předpověď pro Galway, Irsko</title>
+  <link type="text/css" href="{{ "/css/style.css" | prepend: site.baseurl }}" rel="stylesheet" />
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+  <script type="text/javascript" src="{{ "/scripts/data-highlight.js" | prepend: site.baseurl }}"></script>
+</head>
+<body>
+  
+<div>
+  <button id="show-data">Show embedded data</button>
+  <div id="hint">
+    <p>
+      Pro zobrazení vnořených dat ve formátu RDFa, přejeďte přes červeně tečkované oblasti.
+      Můžete si také <a href="http://graphite.ecs.soton.ac.uk/browser/?uri={{ page.url | prepend: site.baseurl | prepend: site.url }}">zobrazit data externě</a> v prohlížeči Graphite nebo jiných nástrojích.
+    </p>
+    <p>
+      V tomto 4-hvězdičkovém příkladě jsme k reprezentaci teplotní předpovědi použili slovník <a href="http://purl.org/ns/meteo#">Meteo</a>.
+      Každá předpověď má URI (například '<a href="#forecast20101115">předpověď na pondělí 15. listopadu 2010</a>'), které může být použito v jiném kontextu.
+    </p>
+
+    <p>
+      Pokud se podíváte na zdrojový kód, data vypadají hierarchicky, což je ale pouze iluze. Ve skutečnosti vyjadřují pouze množinu jednotlivých tvrzení o věcech; "#Galway" je "místo", "#Galway" má předpověď "#forecast20101113", "#forecast20101113" je předpověd pro "2010-11-13T00:00:00Z" a tak dále. Pořadí těchto tvrzení můžete změnit bez dopadu na jejich význam.
+    </p>
+  </div>
+</div>
+<h1 property="dcterms:title">Teplotní předpověď pro Galway, Irsko</h1>
+  
+<div id="data" about="#Galway" typeof="meteo:Place">
+<table border="1px">
+  <tr>
+    <th>Den</th>
+    <th>Nejnižší teplota (&deg;C)</th>
+  </tr>
+  <tr rel="meteo:forecast" resource="#forecast20101113">
+    <td>
+      <div about="#forecast20101113">
+        <span property="meteo:predicted" content="2010-11-13T00:00:00Z" datatype="xsd:dateTime">Sobota, 13. listopadu 2010</span>
+      </div>
+    </td>
+    <td rel="meteo:temperature">
+      <div about="#temp20101113">
+        <span property="meteo:celsius" datatype="xsd:decimal">2</span>
+      </div>
+    </td>
+  </tr>
+  <tr rel="meteo:forecast" resource="#forecast20101114">
+    <td>
+      <div about="#forecast20101114">
+        <span property="meteo:predicted" content="2010-11-14T00:00:00Z" datatype="xsd:dateTime">Neděle, 14. listopadu 2010</span>
+      </div>
+    </td>
+    <td rel="meteo:temperature">
+      <div about="#temp20101114">
+        <span property="meteo:celsius" datatype="xsd:decimal">4</span>
+      </div>
+    </td>
+  </tr>
+  <tr rel="meteo:forecast" resource="#forecast20101115">
+    <td>
+      <div about="#forecast20101115">
+        <span property="meteo:predicted" content="2010-11-15T00:00:00Z" datatype="xsd:dateTime">Pondělí, 15. listopadu 2010</span>
+      </div>
+    </td>
+    <td rel="meteo:temperature">
+      <div about="#temp20101115">
+        <span property="meteo:celsius" datatype="xsd:decimal">7</span>
+      </div>
+    </td>
+  </tr>
+</table>
+</div>
+  
+<pre id="data-out"></pre>
+
+<div id="footer">
+  <span>
+    Vytvořeno <a rel="dcterms:creator" href="http://mhausenblas.info/#i">Michaelem</a>: <span property="dcterms:created" datatype="xsd:date">2012-01-22</span> |
+  </span>
+  <span>
+    Naposledy změněno <a href="http://jayg.me/" rel="dcterms:contributor">Jamesem</a>: <span property="dcterms:modified" datatype="xsd:date">2015-08-31</span> |
+  </span>
+  <span>
+    Přeloženo <a rel="dcterms:contributor" href="http://purl.org/klimek#me">Jakubem</a>: 2016-01-20 |
+  </span>
+  <span>
+    Kód je k dispozici na <a href="https://github.com/mhausenblas/5stardata.info">GitHubu</a>
+  </span>
+  <br />
+  <span>
+    Pokud není uvedeno jinak, obsah těchto stránek je volně dostupný pod licencí <a rel="dcterms:license" href="http://creativecommons.org/publicdomain/zero/1.0/">CC0 Public Domain Dedication</a>.
+  </span>
+</div>
+</body>
+</html>
+
+
+

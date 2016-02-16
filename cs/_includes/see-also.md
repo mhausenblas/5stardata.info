@@ -1,0 +1,4 @@
+- [Ed Summers](http://inkdroid.org/ehs/) poskytl [pěkný obrázek](http://inkdroid.org/2010/06/04/the-5-stars-of-open-linked-data/ "5 hvězdiček otevřených propojených dat") 5-hvězdičkového schématu, na kterém zde stavíme.
+- Pokud máte Otevřená data, můžete chtít použít [hvězdičkové odznáčky](http://lab.linkeddata.deri.ie/2010/lod-badges/), abyste ukázali vaší úroveň otevřenosti.
+- Christopher Gutteridge má [rychlokurz Propojených dat pro programátory](http://openorg.ecs.soton.ac.uk/wiki/Linked_Data_Basics_for_Techies).
+- [Open Data Institute](http://theodi.org/) vám pomůže s certifikací vašich otevřených dat [Certifikátem otevřených dat](https://certificates.theodi.org/).
