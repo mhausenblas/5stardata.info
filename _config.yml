@@ -5,6 +5,9 @@ baseurl: ""
 # Translated Languages
 languages:
   -
+    - cs
+    - Čeština
+  -
     - en
     - English
   -
