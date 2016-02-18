@@ -1,6 +1,5 @@
 ---
 layout: default
-redirect_from: /
 lang: cs
 title: 5-hvězdičková otevřená data
 description: Informace o plánu Tima Bernerse-Lee na 5-hvězdičková otevřená data
