@@ -7,7 +7,7 @@ description: Информация о 5-звёздночном плане по о
 nav:
   page-top: 5 &#x2605; Открытые Данные
   by-example: Примеры
-  costs-benefits: Выгоды &amp; Издержки
-  see-also: Смотрите также
+  costs-benefits: Преимущества &amp; Недостатки
+  see-also: Дополнительно
   languages: Languages
 ---

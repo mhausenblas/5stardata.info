@@ -29,6 +29,10 @@ languages:
     - zh-TW
     - 繁體中文
 
+  -
+    - ru
+    - Русский
+
 # Plug-ins
 gems:
   - jekyll-redirect-from
