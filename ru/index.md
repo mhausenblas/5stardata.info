@@ -8,5 +8,5 @@ nav:
   by-example: Примеры
   costs-benefits: Преимущества &amp; Недостатки
   see-also: Дополнительно
-  languages: Languages
+  languages: Языки
 ---
