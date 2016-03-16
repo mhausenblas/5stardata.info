@@ -1,0 +1,109 @@
+---
+redirect_from:
+- /ru/examples/gtd-4.html
+- /ru/gtd-4.html
+lang: ru
+---
+
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN" "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+  xmlns:xsd ="http://www.w3.org/2001/XMLSchema#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:meteo="http://purl.org/ns/meteo#">
+<head>
+  <title>Прогноз температуры для Голуэй, Ирландия</title>
+  <link type="text/css" href="{{ "/css/style.css" | prepend: site.baseurl }}" rel="stylesheet" />
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+  <script type="text/javascript" src="{{ "/scripts/data-highlight.js" | prepend: site.baseurl }}"></script>
+</head>
+<body>
+  
+<div>
+  <button id="show-data">Показать встроенные данные</button>
+  <div id="hint">
+    <p>
+      Для того, чтобы посмотреть на встроенные данные в формате RDFa, наведите курсор на область, выделенную красным пунктиром.
+      Также вы можете <a href="http://graphite.ecs.soton.ac.uk/browser/?uri={{ page.url | prepend: site.baseurl | prepend: site.url }}">посмотреть данные через внешний сервис</a>. Например, в Graphite Browser, или через другие сервисы.
+    </p>
+    <p>
+      На данном 4-звёздночном примере, мы используем <a href="http://purl.org/ns/meteo#">Meteo</a> словарь для представления прогноза погоды.
+      Каждый прогноз имеет URI (например, '<a href="#forecast20101115">прогноз на понедельник 15, ноября 2010</a>'), который может быть использован в другом контексте.
+    </p>
+
+    <p>
+      Если вы посмотрите на исходный код, данные выглядят как иерархическая структура, но это не так. На самом деле, это просто набор отдельных утверждений о сущностях: "#Galway" это "место", к "#Galway" относятся несколько прогнозов погоды (сущностей): "#forecast20101113", "#forecast20101114" и "#forecast20101115", предсказанные на даты: "2010-11-13T00:00:00Z" и так далее... Вы можете поменять порядок данных утверждений - смысл не изменится.
+    </p>
+  </div>
+</div>
+<h1 property="dcterms:title">Прогноз температуры для Голуэй, Ирландия</h1>
+  
+<div id="data" about="#Galway" typeof="meteo:Place">
+<table border="1px">
+  <tr>
+    <th>День</th>
+    <th>Самая низкая температура (&deg;C)</th>
+  </tr>
+  <tr rel="meteo:forecast" resource="#forecast20101113">
+    <td>
+      <div about="#forecast20101113">
+        <span property="meteo:predicted" content="2010-11-13T00:00:00Z" datatype="xsd:dateTime">Суббота, 13 Ноября 2010</span>
+      </div>
+    </td>
+    <td rel="meteo:temperature">
+      <div about="#temp20101113">
+        <span property="meteo:celsius" datatype="xsd:decimal">2</span>
+      </div>
+    </td>
+  </tr>
+  <tr rel="meteo:forecast" resource="#forecast20101114">
+    <td>
+      <div about="#forecast20101114">
+        <span property="meteo:predicted" content="2010-11-14T00:00:00Z" datatype="xsd:dateTime">Воскресение, 14 Ноября 2010</span>
+      </div>
+    </td>
+    <td rel="meteo:temperature">
+      <div about="#temp20101114">
+        <span property="meteo:celsius" datatype="xsd:decimal">4</span>
+      </div>
+    </td>
+  </tr>
+  <tr rel="meteo:forecast" resource="#forecast20101115">
+    <td>
+      <div about="#forecast20101115">
+        <span property="meteo:predicted" content="2010-11-15T00:00:00Z" datatype="xsd:dateTime">Понедельник, 15 ноября 2010</span>
+      </div>
+    </td>
+    <td rel="meteo:temperature">
+      <div about="#temp20101115">
+        <span property="meteo:celsius" datatype="xsd:decimal">7</span>
+      </div>
+    </td>
+  </tr>
+</table>
+</div>
+  
+<pre id="data-out"></pre>
+
+<div id="footer">
+  <span>
+    Создано: <span property="dcterms:created" datatype="xsd:date">2012-01-22</span> <a rel="dcterms:creator" href="http://mhausenblas.info/#i">Michael</a> |
+  </span>
+  <span>
+    Последнее обновление: <span property="dcterms:modified" datatype="xsd:date">2015-08-31</span> by <a href="http://jayg.me/" rel="dcterms:contributor">James</a> |
+  </span>
+  <span>
+    Код доступен через <a href="https://github.com/mhausenblas/5stardata.info">GitHub</a>
+  </span>
+  <br />
+  <span>
+      Содержимое этого сайта находится в свободном доступе только с указанием лицензии: <a rel="dcterms:license" href="http://creativecommons.org/publicdomain/zero/1.0/">CC0 Public Domain Dedication</a>.
+  </span>
+</div>
+</body>
+</html>
+
+
+

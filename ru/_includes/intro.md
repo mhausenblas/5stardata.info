@@ -1,0 +1,3 @@
+[Тим Бернерс-Ли](http://www.w3.org/People/Berners-Lee/card#i), создатель Интернета и инициатор "связанных данных" (Linked data), предлагает [5-звёздочную схему развёртывания](http://www.w3.org/DesignIssues/LinkedData.html) открытых данных. Мы представляем примеры для каждого уровня, а также преимущества и недостатки её использования.
+
+![5-star steps by example]({{ "/images/5-star-steps.png" | prepend: site.baseurl }})
