@@ -1,6 +1,5 @@
 ---
 layout: default
-redirect_from: /
 lang: de
 title: 5-Sterne Offene Daten
 description: Informationen über Tim Berners-Lees 5-Sterne Open-Data-Modell
