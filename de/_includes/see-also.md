@@ -1,0 +1,4 @@
+- [Ed Summers](http://inkdroid.org/ehs/) hat eine [schöne Darstellung](http://inkdroid.org/2010/06/04/the-5-stars-of-open-linked-data/ "the 5 stars of open linked data") des 5-Sterne-Schemas zur Verfügung gestellt, von der wir hier gebrauch machen.
+- Wenn du Offene Daten bereitstellst, möchtest du sie vielleicht mit [*star badges*](http://lab.linkeddata.deri.ie/2010/lod-badges/) kennzeichnen, um den Grad deiner Datenoffenheit anzuzeigen.
+- Christopher Gutteridge hat einen [Linked-Data-Crash-Kurs für Programmierer*Innen [Englisch]](http://openorg.ecs.soton.ac.uk/wiki/Linked_Data_Basics_for_Techies) verfasst.
+- Das [*Open Data Institute*](http://theodi.org/) hilft dir dabei, deine Offenen Daten mit dem [*Open Data Certificate*](https://certificates.theodi.org/) zu verifizieren.

@@ -1,0 +1,108 @@
+---
+redirect_from:
+- /de/examples/gtd-4.html
+lang: de
+---
+
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN" "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+  xmlns:xsd ="http://www.w3.org/2001/XMLSchema#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:meteo="http://purl.org/ns/meteo#">
+<head>
+  <title>Temperaturvorhersage für Galway, Irland</title>
+  <link type="text/css" href="{{ "/css/style.css" | prepend: site.baseurl }}" rel="stylesheet" />
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+  <script type="text/javascript" src="{{ "/scripts/data-highlight.js" | prepend: site.baseurl }}"></script>
+</head>
+<body>
+  
+<div>
+  <button id="show-data">Eingebettete Daten anzeigen</button>
+  <div id="hint">
+    <p>
+      Um die in RDFa codierten, eingebetteten Daten anzeigen zu lassen, fahre mit dem Mauszeiger über die rot umrandeten Flächen. 
+      Du kannst außerdem <a href="http://graphite.ecs.soton.ac.uk/browser/?uri={{ page.url | prepend: site.baseurl | prepend: site.url }}">Daten extern anzeigen lassen</a> (im Graphite Browser oder mit anderen Tools).
+    </p>
+    <p>
+      In diesem 4-Sterne-Beispiel haben wir das <a href="http://purl.org/ns/meteo#">Meteo</a>-Vokabular für die Temperaturvorhersage benutzt.
+      Jede Vorhersage hat einen URI (zum Beispiel '<a href="#forecast20101115">Vorhersage für Montag, 15. November 2010</a>'), der in einem anderen Kontext benutzt werden kann.
+    </p>
+
+    <p>
+      Wenn du dir den Quellcode anguckst, glaubst du vielleicht, dass die Daten hierarchisch angeordnet sind, aber das ist nicht richtig. Tatsächlich handelt es sich nur um eine Reihe individueller Fakten über Dinge; "#Galway" ist "ein Ort", "#Galway" hat eine Vorhersage "#forecast20101113", "#forecast20101113" ist eine Vorhersage für "2010-11-13T00:00:00Z" usw. Du kannst die Reihenfolge dieser Fakten ändern, ohne dabei ihre Bedeutung zu ändern.
+    </p>
+  </div>
+</div>
+<h1 property="dcterms:title">Temperaturvorhersage für Galway, Irland</h1>
+  
+<div id="data" about="#Galway" typeof="meteo:Place">
+<table border="1px">
+  <tr>
+    <th>Tag</th>
+    <th>Niedrigste Temperatur (&deg;C)</th>
+  </tr>
+  <tr rel="meteo:forecast" resource="#forecast20101113">
+    <td>
+      <div about="#forecast20101113">
+        <span property="meteo:predicted" content="2010-11-13T00:00:00Z" datatype="xsd:dateTime">Samstag, 13. November 2010</span>
+      </div>
+    </td>
+    <td rel="meteo:temperature">
+      <div about="#temp20101113">
+        <span property="meteo:celsius" datatype="xsd:decimal">2</span>
+      </div>
+    </td>
+  </tr>
+  <tr rel="meteo:forecast" resource="#forecast20101114">
+    <td>
+      <div about="#forecast20101114">
+        <span property="meteo:predicted" content="2010-11-14T00:00:00Z" datatype="xsd:dateTime">Sonntag, 14 November 2010</span>
+      </div>
+    </td>
+    <td rel="meteo:temperature">
+      <div about="#temp20101114">
+        <span property="meteo:celsius" datatype="xsd:decimal">4</span>
+      </div>
+    </td>
+  </tr>
+  <tr rel="meteo:forecast" resource="#forecast20101115">
+    <td>
+      <div about="#forecast20101115">
+        <span property="meteo:predicted" content="2010-11-15T00:00:00Z" datatype="xsd:dateTime">Montag, 15 November 2010</span>
+      </div>
+    </td>
+    <td rel="meteo:temperature">
+      <div about="#temp20101115">
+        <span property="meteo:celsius" datatype="xsd:decimal">7</span>
+      </div>
+    </td>
+  </tr>
+</table>
+</div>
+  
+<pre id="data-out"></pre>
+
+<div id="footer">
+  <span>
+    Erstellt: <span property="dcterms:created" datatype="xsd:date">2012-01-22</span> von <a rel="dcterms:creator" href="http://mhausenblas.info/#i">Michael</a> |
+  </span>
+  <span>
+    Letzte Aktualisierung: <span property="dcterms:modified" datatype="xsd:date">2015-08-31</span> von <a href="http://jayg.me/" rel="dcterms:contributor">James</a> |
+  </span>
+  <span>
+   Übersetzt von <a href="http://mfindeisen.github.io/" rel="dcterms:contributor">Matthias Findeisen</a> | 
+  </span>
+  <span>
+    Quelltext erhältlich über <a href="https://github.com/mhausenblas/5stardata.info">GitHub</a>
+  </span>
+  <br />
+  <span>
+    Sofern nicht anderweitig angegeben, ist der Inhalt dieser Seite frei erhältlich unter der <a rel="dcterms:license" href="http://creativecommons.org/publicdomain/zero/1.0/">CC0 Public Domain Dedication</a> Lizenz.
+  </span>
+</div>
+</body>
+</html>

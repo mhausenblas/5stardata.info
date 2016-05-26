@@ -1,0 +1,3 @@
+[Tim Berners-Lee](http://www.w3.org/People/Berners-Lee/card#i), der Erfinder des *World Wide Webs* und Initiator von *Linked Data* schlug ein [5-Sterne-Modell](http://www.w3.org/DesignIssues/LinkedData.html) für Offene Daten (*Open Data*) vor. Hier geben wir Beispiele für jede Stufe  und erklären die damit verbundenen Kosten und Nutzen.
+
+![5-Sterne Beispiele (Schritt für Schritt)]({{ "/images/5-star-steps.png" | prepend: site.baseurl }})
