@@ -1,0 +1,13 @@
+---
+layout: default
+redirect_from: /
+lang: fr
+title: Open Data 5 étoiles
+description: Information sur le programme Open Data 5 étoiles de Tim Berners-Lee
+nav:
+  page-top: Open Data 5 &#x2605;
+  by-example: Par exemple
+  costs-benefits: Coût et bénéfices
+  see-also: Voir également
+  languages: Langues
+---

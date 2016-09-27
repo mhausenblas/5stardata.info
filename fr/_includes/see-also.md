@@ -1,0 +1,4 @@
+- [Ed Summers](http://inkdroid.org/ehs/) a fourni un [rendu sympa](http://inkdroid.org/2010/06/04/the-5-stars-of-open-linked-data/ "the 5 stars of open linked data") du programme 5 étoiles que nous élaborons ici.
+- Si vous avez des données ouvertes, vous pouvez utiliser les [star badges](http://lab.linkeddata.deri.ie/2010/lod-badges/) pour afficher votre niveau de conformité.
+- Christopher Gutteridge propose un [cours accéléré pour les programmeurs sur les Linked Data](http://openorg.ecs.soton.ac.uk/wiki/Linked_Data_Basics_for_Techies).
+- [The Open Data Institute](http://theodi.org/) vous aide à certifier vos données ouvertes avec [the open data certificate](https://certificates.theodi.org/).
