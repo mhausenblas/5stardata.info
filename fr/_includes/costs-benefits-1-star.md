@@ -15,4 +15,4 @@ En tant qu’éditeur &hellip;
 - &#10004; Vous n’avez pas à expliquer continuellement aux autres qu’il peuvent utiliser vos données.
 
 "C'est bien de pouvoir accéder aux données sur le Web sous une licence ouverte (comme [PDDL](http://opendatacommons.org/licenses/pddl/ "Open Data Commons &raquo; Public Domain Dedication and License (PDDL)"), [ODC-by](http://opendatacommons.org/licenses/by/ "Open Data Commons &raquo; Open Data Commons Attribution License") ou [CC0](http://creativecommons.org/publicdomain/zero/1.0/ "Creative Commons &mdash;CC0 1.0 Universal")),
-cependant, les données sont verrouillées dans un document. À moins de créer un extracteur de données spécifique, il n’est pas aisé d’obtenir les données de ce document."
+cependant, les données sont verrouillées dans un document. À moins de créer un outil spécifique, extraire les données de ce document ne sera pas chose aisée."
