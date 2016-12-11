@@ -1,6 +1,5 @@
 ---
 layout: default
-redirect_from: /fr/
 lang: fr
 title: Open Data 5 étoiles
 description: Information sur le programme Open Data 5 étoiles de Tim Berners-Lee
