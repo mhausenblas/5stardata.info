@@ -7,6 +7,7 @@ As a consumer, you can do all what you can do with <span class="stars-inline">&#
 
 As a publisher &hellip;
 
+- &#9888; You might need converters or plug-ins to export the data from the proprietary format.
 - &#10004; It's still simple to publish.
 
 "Splendid! The data is accessible on the Web in a structured way (that is, machine-readable), however, the data is still locked-up in a document. To get the data out of the document you depend on proprietary software."
