@@ -11,7 +11,7 @@ Ci-dessous, quelques exemples pour chaque étape du programme 5 étoiles pour l�
   - [exemple &hellip;](examples/gtd-3.csv "données 3-étoiles des températures de Galway")
 - &#x2605;&#x2605;&#x2605;&#x2605;
   - utilisez des URI pour désigner des choses dans vos données, afin que les gens puissent faire des références à celles-ci[4](#addendum4 "voir les coûts et bénéfices des données 4-étoiles")
-  - [exemple &hellip;](examples/gtd-3.csv "données 4-étoiles des températures de Galway")
+  - [exemple &hellip;](examples/gtd-4/ "données 4-étoiles des températures de Galway")
 - &#x2605;&#x2605;&#x2605;&#x2605;&#x2605;
   - liez vos données à d’autres données pour y ajouter du contexte[5](#addendum5 "voir les coûts et bénéfices des données 5-étoiles")
-  - [exemple &hellip;](examples/gtd-3.csv "données 5-étoiles des températures de Galway")
+  - [exemple &hellip;](examples/gtd-5/ "données 5-étoiles des températures de Galway")
