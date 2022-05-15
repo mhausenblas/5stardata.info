@@ -2,7 +2,7 @@
 
 As a consumer, you can do all what you can do with <span class="stars-inline">&#x2605;&#x2605;</span> Web data and additionally:
 
-- &#10004; You can manipulate the data in any way you like, without the need to own any prorietary software package.
+- &#10004; You can manipulate the data in any way you like, without the need to own any proprietary software package.
 
 As a publisher &hellip;
 
