@@ -7,7 +7,7 @@ As a consumer, you can do all what you can do with <span class="stars-inline">&#
 - &#10004; You can reuse parts of the data.
 - &#10004; You may be able to reuse existing tools and libraries, even if they only understand parts of the pattern the publisher used.
 - &#9888; Understanding the structure of an RDF "Graph" of data can be more effort than tabular (Excel/CSV) or tree (XML/JSON) data.
-- &#10004; You can combine the data safely with other data. URIs are a global scheme so if two things have the same URI then it's intentional, and if so that's well on it's way to being 5-star data!
+- &#10004; You can combine the data safely with other data. URIs are a global scheme so if two things have the same URI then it's intentional, and if so that's well on its way to being 5-star data!
 
 As a publisher &hellip;
 
