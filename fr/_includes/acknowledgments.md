@@ -1,5 +1,5 @@
 Merci à [Andy Seaborne](https://twitter.com/andyseaborne) pour avoir relevé un bogue avec le CSV,
-à [Kerstin Forsberg](https://twitter.com/kerfors) pour avoir suggérer de mettre en exergue les données dans les exemples des données 4 et 5 étoiles,
+à [Kerstin Forsberg](https://twitter.com/kerfors) pour avoir suggéré de mettre en exergue les données dans les exemples des données 4 et 5 étoiles,
 ainsi qu’à [Vassilios Peristeras](https://twitter.com/vassilios) pour avoir proposé d’expliquer non seulement le 'qu’est-ce', mais aussi le 'pourquoi'.
 Merci à [Egon Willighagen](https://twitter.com/egonwillighagen) pour avoir fourni plus de détails sur les bénéfices des données 1 étoile.
 Contributions complémentaires de la part de [Christopher Gutteridge](http://www.ecs.soton.ac.uk/people/cjg).
