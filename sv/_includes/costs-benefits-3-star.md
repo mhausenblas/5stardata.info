@@ -9,4 +9,4 @@ Som utgivare &hellip;
 - &#9888; Du kan behöva omvandlare eller plug-ins för att exportera data från det proprietära formatet.
 - &#10004; Det är fortfarande ganska enkelt att publicera.
 
-"Utmärkt! Datan är inte bara tillgänglig via webben utan nu kan alla enkelt använda datan. Å andra sidan är det fortfarande data på webben och inte [data på webben](https://webofdata.wordpress.com /2010/03/01/data-and-the-web-choices/ "Data och webben &#8211; ett stort antal val &laquo; Web of Data")."
+"Utmärkt! Datan är inte bara tillgänglig via webben utan nu kan alla enkelt använda datan. Å andra sidan är det fortfarande data på webben och inte [data på webben](https://webofdata.wordpress.com/2010/03/01/data-and-the-web-choices/ "Data och webben &#8211; ett stort antal val &laquo; Web of Data")."
