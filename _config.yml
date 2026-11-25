@@ -5,6 +5,9 @@ baseurl: ""
 # Translated Languages
 languages:
   -
+    - az
+    - Azərbaycanca
+  -
     - cs
     - Čeština
   -
@@ -35,12 +38,12 @@ languages:
     - ru
     - Русский
   -
+    - sv
+    - svenska
+  -
     - zh-TW
     - 繁體中文
-  -
-    - az
-    - Azərbaycanca
-
+  
 # Plug-ins
 gems:
   - jekyll-redirect-from
