@@ -1,7 +1,7 @@
 ---
 layout: default
 redirect_from: /
-lang: en
+lang: sv
 title: 5-star Open Data
 description: Information kring Tim Berners-Lees 5-stjärniga Open Data Plan
 nav:
